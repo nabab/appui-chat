@@ -1,0 +1,19 @@
+{
+  "name": "bbn/appui-chat",
+  "description": "A chat system for appui",
+  "keywords": ["chat","php","appui", "vuejs"],
+  "homepage": "https://github.com/nabab/appui-chat",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thomas Nabet",
+      "email": "thomas.nabet@gmail.com",
+      "homepage": "http://bbn.solutions",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "bbn/bbn": "dev-master"
+  }
+}
