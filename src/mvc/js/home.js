@@ -15,7 +15,7 @@
           if ( this.currentFilter && (a.text.indexOf(this.currentFilter) === -1) ){
             return false;
           }
-          return a.value !== appui.app.userId
+          return a.value !== appui.app.user.id;
         })
       }
     },
