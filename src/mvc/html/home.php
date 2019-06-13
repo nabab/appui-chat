@@ -1,6 +1,6 @@
 <!-- HTML Document -->
 
-<div class="bbn-full-screen">
+<div class="bbn-overlay">
   <bbn-splitter orientation="horizontal"
                 :resizable="true">
     <bbn-pane :size="300" :scrollable="false">
@@ -18,7 +18,7 @@
         <div class="bbn-flex-fill">
           <bbn-list v-if="!users.length && !currentFilter"
                 		:source="users"
-                    class="bbn-full-screen">
+                    class="bbn-overlay">
             <div class="bbn-w-100 bbn-p"
                  style="overflow: auto"
                  slot="item"

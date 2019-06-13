@@ -1,6 +1,6 @@
 <!-- HTML Document -->
 
-<div class="bbn-full-screen">
+<div class="bbn-overlay">
   <bbn-list :source="source.users">
     <div class="bbn-w-100 bbn-spadded"
          style="overflow: auto"
