@@ -21,7 +21,7 @@
     },
     mounted(){
       this.usersTimeout = setTimeout(() => {
-        bbn.fn.post(this.source.root)
+        this.post(this.source.root)
       })
     }
   }
