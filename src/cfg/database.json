@@ -17,7 +17,7 @@
                 "columns": [
                     "creator"
                 ],
-                "ref_db": "apst_app",
+                "ref_db": null,
                 "ref_table": "bbn_users",
                 "ref_column": "id",
                 "constraint": "bbn_chats_ibfk_1",
@@ -136,7 +136,7 @@
                 "columns": [
                     "id_chat"
                 ],
-                "ref_db": "apst_app",
+                "ref_db": null,
                 "ref_table": "bbn_chats",
                 "ref_column": "id",
                 "constraint": "bbn_chats_users_ibfk_1",
@@ -148,7 +148,7 @@
                 "columns": [
                     "id_user"
                 ],
-                "ref_db": "apst_app",
+                "ref_db": null,
                 "ref_table": "bbn_users",
                 "ref_column": "id",
                 "constraint": "bbn_chats_users_ibfk_2",

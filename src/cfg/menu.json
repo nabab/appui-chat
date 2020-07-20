@@ -1,0 +1,13 @@
+{
+  "text": "Chat",
+  "icon": "nf nf-fa-wechat",
+  "items": [{
+    "text": "Home",
+    "icon": "nf nf-fa-home",
+    "link": "home"
+  }, {
+    "text": "Users",
+    "icon": "nf nf-fa-users",
+    "link": "users"
+  }]
+}
