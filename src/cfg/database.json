@@ -24,6 +24,18 @@
                 "update": "RESTRICT",
                 "delete": "RESTRICT",
                 "unique": 0
+            },
+            "title": {
+                "columns": [
+                        "title"
+                ],
+                "ref_db": null,
+                "ref_table": null,
+                "ref_column": null,
+                "constraint": null,
+                "update": null,
+                "delete": null,
+                "unique": 0
             }
         },
         "cols": {
@@ -32,6 +44,9 @@
             ],
             "creator": [
                 "creator"
+            ],
+            "title": [
+                    "title"
             ]
         },
         "fields": {
@@ -46,6 +61,18 @@
                 "generation": "",
                 "maxlength": 16
             },
+            "title": {
+                    "position": 2,
+                    "type": "varchar",
+                    "null": 1,
+                    "key": "MUL",
+                    "extra": "",
+                    "signed": true,
+                    "virtual": false,
+                    "generation": "",
+                    "default": "NULL",
+                    "maxlength": 255
+            },
             "creator": {
                 "position": 2,
                 "type": "binary",
@@ -56,6 +83,18 @@
                 "virtual": false,
                 "generation": "",
                 "maxlength": 16
+            },
+            "state_hash": {
+                    "position": 4,
+                    "type": "varchar",
+                    "null": 1,
+                    "key": null,
+                    "extra": "",
+                    "signed": true,
+                    "virtual": false,
+                    "generation": "",
+                    "default": "NULL",
+                    "maxlength": 32
             },
             "creation": {
                 "position": 3,
@@ -213,6 +252,31 @@
                 "generation": "from_unixtime(`entrance`)",
                 "default": "NULL"
             },
+						"last_activity": {
+								"position": 5,
+								"type": "decimal",
+								"null": 1,
+								"key": null,
+								"extra": "",
+								"signed": true,
+								"virtual": false,
+								"generation": "",
+								"default": "NULL",
+								"maxlength": 14,
+								"decimals": 4
+						},
+						"mute": {
+								"position": 6,
+								"type": "tinyint",
+								"null": 0,
+								"key": null,
+								"extra": "",
+								"signed": false,
+								"virtual": false,
+								"generation": "",
+								"default": 0,
+								"maxlength": 1
+						},
             "admin": {
                 "position": 5,
                 "type": "tinyint",

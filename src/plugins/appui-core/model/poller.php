@@ -1,13 +1,16 @@
 <?php
 $cc = new \bbn\appui\chat($model->db, $model->inc->user);
 return [[
-  'id' => 'appui-core-1',
+  'id' => 'appui-chat-0',
   'frequency' => 1,
   'function' => function(array $data) use($cc){
-    $res = [];
+    $res = [
+      'success' => true,
+      'data' => []
+    ];
     $online = $cc->get_user_status();
     if ($online !== $data['online']) {
-      $res = [
+      $res['data'] = [
         'online' => $online,
         'serviceWorkers' => [
           'online' => $online
@@ -22,25 +25,25 @@ return [[
       }
       $last = $data['lastChat'] ?? 0;
       if ($chats_hash !== $data['chatsHash']) {
-        $res['chats'] = [
+        $res['data']['chats'] = [
           'current' => [],
           'hash' => $chats_hash
         ];
         foreach ($chats as $c) {
-          $res['chats']['current'][$c] = [
+          $res['data']['chats']['current'][$c] = [
             'info' => $cc->info($c),
             'admins' => $cc->get_admins($c),
             'participants' => $cc->get_participants($c, false, true)
           ];
           if ($m = empty($data['chatsHash']) ? $cc->get_prev_messages($c) : $cc->get_next_messages($c, $data['lastChat'])) {
-            $res['chats']['current'][$c]['messages'] = $m;
+            $res['data']['chats']['current'][$c]['messages'] = $m;
             $max = $m[count($m)-1]['time'];
             if (\bbn\x::compare_floats($max, $last, '>')) {
               $last = $max;
             }
           }
         }
-        $res['serviceWorkers'] = [
+        $res['data']['serviceWorkers'] = [
           'chatsHash' => $chats_hash
         ];
       }
@@ -48,9 +51,9 @@ return [[
         foreach ($chats as $c) {
           if ($m = $cc->get_next_messages($c, $data['lastChat'])) {
             if (!isset($res['messages'])) {
-              $res['messages'] = []; 
+              $res['data']['messages'] = [];
             }
-            $res['messages'][$c] = $m;
+            $res['data']['messages'][$c] = $m;
             $max = $m[count($m)-1]['time'];
             if (\bbn\x::compare_floats($max, $last, '>')) {
               $last = $max;
@@ -58,12 +61,12 @@ return [[
           }
         }
       }
-      if (!empty($res['chats']) || !empty($res['messages'])) {
-        $res['last'] = !empty($chats_hash) ? $last : null;
-        if (!isset($res['serviceWorkers'])) {
-          $res['serviceWorkers'] = [];
+      if (!empty($res['data']['chats']) || !empty($res['data']['messages'])) {
+        $res['data']['last'] = !empty($chats_hash) ? $last : null;
+        if (!isset($res['data']['serviceWorkers'])) {
+          $res['data']['serviceWorkers'] = [];
         }
-        $res['serviceWorkers']['lastChat'] = $res['last'];
+        $res['data']['serviceWorkers']['lastChat'] = $res['data']['last'];
       }
     }
     else if (empty($data['lastChat'])
@@ -72,36 +75,39 @@ return [[
       && ($chats_hash !== $data['chatsHash'])
       && ($chats = $cc->get_chats($max))
     ) {
-      $res['last'] = $max;
-      $res['chats'] = [
+      $res['data']['last'] = $max;
+      $res['data']['chats'] = [
         'current' => [],
         'hash' => $chats_hash
       ];
       foreach ($chats as $c) {
-        $res['chats']['current'][$c] = [
+        $res['data']['chats']['current'][$c] = [
           'info' => $cc->info($c),
           'admins' => $cc->get_admins($c),
           'participants' => $cc->get_participants($c, false, true),
           'messages' => $cc->get_prev_messages($c, $max)
         ];
       }
-      if (!isset($res['serviceWorkers'])) {
-        $res['serviceWorkers'] = [];
+      if (!isset($res['data']['serviceWorkers'])) {
+        $res['data']['serviceWorkers'] = [];
       }
-      $res['serviceWorkers']['lastChat'] = $max;
-      $res['serviceWorkers']['chatsHash'] = $chats_hash;
+      $res['data']['serviceWorkers']['lastChat'] = $max;
+      $res['data']['serviceWorkers']['chatsHash'] = $chats_hash;
     }
     return $res;
   }
 ], [
-  'id' => 'appui-core-2',
+  'id' => 'appui-chat-1',
   'frequency' => 10,
   'function' => function(array $data) use($cc){
-    $res = [];
+    $res = [
+      'success' => true,
+      'data' => []
+    ];
     $users = $cc->get_online_users();
     $users_hash = md5(json_encode($users));
     if ($users_hash !== $data['usersHash']) {
-      $res = [
+      $res['data'] = [
         'users' => [
           'list' => $users,
           'hash' => $users_hash
