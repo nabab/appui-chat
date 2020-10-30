@@ -252,31 +252,31 @@
                 "generation": "from_unixtime(`entrance`)",
                 "default": "NULL"
             },
-						"last_activity": {
-								"position": 5,
-								"type": "decimal",
-								"null": 1,
-								"key": null,
-								"extra": "",
-								"signed": true,
-								"virtual": false,
-								"generation": "",
-								"default": "NULL",
-								"maxlength": 14,
-								"decimals": 4
-						},
-						"mute": {
-								"position": 6,
-								"type": "tinyint",
-								"null": 0,
-								"key": null,
-								"extra": "",
-								"signed": false,
-								"virtual": false,
-								"generation": "",
-								"default": 0,
-								"maxlength": 1
-						},
+            "last_activity": {
+                "position": 5,
+                "type": "decimal",
+                "null": 1,
+                "key": null,
+                "extra": "",
+                "signed": false,
+                "virtual": false,
+                "generation": "",
+                "default": "NULL",
+                "maxlength": 14,
+                "decimals": 4
+            },
+            "mute": {
+                "position": 6,
+                "type": "tinyint",
+                "null": 0,
+                "key": null,
+                "extra": "",
+                "signed": false,
+                "virtual": false,
+                "generation": "",
+                "default": 0,
+                "maxlength": 1
+            },
             "admin": {
                 "position": 5,
                 "type": "tinyint",

@@ -1,13 +1,19 @@
 {
   "text": "Chat",
+  "num": 5,
   "icon": "nf nf-fa-wechat",
-  "items": [{
-    "text": "Home",
-    "icon": "nf nf-fa-home",
-    "link": "home"
-  }, {
-    "text": "Users",
-    "icon": "nf nf-fa-users",
-    "link": "users"
-  }]
+  "items": [
+    {
+      "text": "Users",
+      "num": 1,
+      "icon": "nf nf-fa-users",
+      "link": "users"
+    },
+    {
+      "text": "Home",
+      "num": 2,
+      "icon": "nf nf-fa-home",
+      "link": "home"
+    }
+  ]
 }
