@@ -101,13 +101,13 @@ return [[
 ], [
   'id' => 'appui-chat-1',
   'frequency' => 10,
-  'function' => function(array $data) use($cc){
+  'function' => function(array $data) use($model){
     $res = [
       'success' => true,
       'data' => []
     ];
     if (isset($data['data']['online'])) {
-      $users = $cc->get_online_users();
+      $users = $model->get_model($model->plugin_url('appui-chat').'/users/online')['online'];
       $users_hash = md5(json_encode($users));
       if ($users_hash !== $data['data']['usersHash']) {
         $res['data'] = [
