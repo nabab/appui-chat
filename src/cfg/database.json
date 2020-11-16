@@ -265,8 +265,43 @@
                 "maxlength": 14,
                 "decimals": 4
             },
-            "mute": {
+            "dt_last_activity": {
                 "position": 6,
+                "type": "datetime",
+                "null": 1,
+                "key": null,
+                "extra": "VIRTUAL GENERATED",
+                "signed": true,
+                "virtual": true,
+                "generation": "from_unixtime(`last_activity`)",
+                "default": "NULL"
+            },
+            "last_notification": {
+                "position": 7,
+                "type": "decimal",
+                "null": 1,
+                "key": null,
+                "extra": "",
+                "signed": false,
+                "virtual": false,
+                "generation": "",
+                "default": "NULL",
+                "maxlength": 14,
+                "decimals": 4
+            },
+            "dt_last_notification": {
+                "position": 8,
+                "type": "datetime",
+                "null": 1,
+                "key": null,
+                "extra": "VIRTUAL GENERATED",
+                "signed": true,
+                "virtual": true,
+                "generation": "from_unixtime(`last_notification`)",
+                "default": "NULL"
+            },
+            "mute": {
+                "position": 9,
                 "type": "tinyint",
                 "null": 0,
                 "key": null,
@@ -278,7 +313,7 @@
                 "maxlength": 1
             },
             "admin": {
-                "position": 5,
+                "position": 10,
                 "type": "tinyint",
                 "null": 0,
                 "key": null,
@@ -290,7 +325,7 @@
                 "maxlength": 1
             },
             "active": {
-                "position": 6,
+                "position": 11,
                 "type": "tinyint",
                 "null": 0,
                 "key": null,

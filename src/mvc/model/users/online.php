@@ -4,4 +4,4 @@ return $model->get_set_from_cache(function() use($model){
   return [
     'online' => $chat->get_online_users()
   ];
-}, [], '', 5000);
+}, [], '', 5);
