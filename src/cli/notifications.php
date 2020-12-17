@@ -61,7 +61,7 @@ $chats = $ctrl->db->select_all([
 ]);
 $did = 0;
 foreach ($chats as $c) {
-  if ($mess = $chat->get_next_messages($c->id_chat, $c->last_activity, $c->id_user)) {
+  if ($mess = $chat->get_next_messages($c->id_chat, $c->last_activity, 0, $c->id_user)) {
     $n = [
     	'title' => _('New messages received from') . ' "' . ($c->title ?: $ctrl->inc->user->get_name($mess[0]->id_user)) . '"',
       'content' => ''
@@ -80,5 +80,5 @@ foreach ($chats as $c) {
   }
 }
 if (count($chats) !== $did) {
-  echo _('To send') . ": $chats - " . _('Sent') . ": $did";
+  echo _('To send') . ": " . count($chats). " - " . _('Sent') . ": $did";
 }
