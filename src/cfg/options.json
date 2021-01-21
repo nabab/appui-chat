@@ -1,5 +1,5 @@
 [{
-  "id_parent": "['list', 'notifications', 'appui']",
+  "id_parent": "['list', 'notification', 'appui']",
   "code": "chat",
   "text": "Chat",
   "after": 1,

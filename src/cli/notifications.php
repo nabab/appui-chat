@@ -1,6 +1,6 @@
 <?php
 $chat = new \bbn\appui\chat($ctrl->db, $ctrl->inc->user);
-$notifications = new \bbn\appui\notifications($ctrl->db);
+$notifications = new \bbn\appui\notification($ctrl->db);
 $ucfg = $ctrl->inc->user->get_class_cfg();
 $ufields = $ucfg['arch']['users'];
 $chats = $ctrl->db->select_all([
