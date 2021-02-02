@@ -4,14 +4,14 @@
  *
  **/
 
-/** @var $this \bbn\mvc\model*/
-$users = new \bbn\user\users($model->db);
+/** @var $this \bbn\Mvc\Model*/
+$users = new \bbn\User\Users($model->db);
 $res = [];
-if ( $online = $users->online_list() ){
+if ( $online = $users->onlineList() ){
   foreach ( $online as $o ){
     $res[] = [
       'id' => $o,
-      'name' => $model->inc->user->get_name($o)
+      'name' => $model->inc->user->getName($o)
     ];
   }
 }

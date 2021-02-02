@@ -8,7 +8,7 @@
 
 if ( isset($model->data['id_chat'], $model->data['id_user']) ){
   return [
-    'success' => $model->inc->chat->remove_user($model->data['id_chat'], $model->data['id_user'])
+    'success' => $model->inc->chat->removeUser($model->data['id_chat'], $model->data['id_user'])
   ];
 }
 return ['success' => false];

@@ -1,5 +1,5 @@
 <?php
-$cc = new \bbn\appui\chat($model->db, $model->inc->user);
+$cc = new \bbn\Appui\Chat($model->db, $model->inc->user);
 return [[
   'id' => 'appui-chat-0',
   'frequency' => 1,
@@ -9,7 +9,7 @@ return [[
       'data' => []
     ];
     if (isset($data['data']['online'])) {
-      $online = $cc->get_user_status();
+      $online = $cc->getUserStatus();
       if ($online !== $data['data']['online']) {
         $res['data'] = [
           'online' => $online,
@@ -19,8 +19,8 @@ return [[
         ];
       }
       if (!empty($online)) {
-        $chats_hash = $cc->get_chats_hash();
-        $chats = $cc->get_chats();
+        $chats_hash = $cc->getChatsHash();
+        $chats = $cc->getChats();
         if (empty($data['data']['lastChat'])) {
           $data['data']['lastChat'] = null;
         }
@@ -33,13 +33,13 @@ return [[
           foreach ($chats as $c) {
             $res['data']['chats']['list'][$c] = [
               'info' => $cc->info($c),
-              'admins' => $cc->get_admins($c),
-              'participants' => $cc->get_participants($c, false, true)
+              'admins' => $cc->getAdmins($c),
+              'participants' => $cc->getParticipants($c, false, true)
             ];
-            if ($m = empty($data['data']['chatsHash']) ? $cc->get_prev_messages($c) : $cc->get_next_messages($c, $data['data']['lastChat'])) {
+            if ($m = empty($data['data']['chatsHash']) ? $cc->getPrevMessages($c) : $cc->getNextMessages($c, $data['data']['lastChat'])) {
               $res['data']['chats']['list'][$c]['messages'] = $m;
               $max = $m[count($m)-1]['time'];
-              if (\bbn\x::compare_floats($max, $last, '>')) {
+              if (\bbn\X::compareFloats($max, $last, '>')) {
                 $last = $max;
               }
             }
@@ -50,13 +50,13 @@ return [[
         }
         else if (!empty($data['data']['lastChat'])) {
           foreach ($chats as $c) {
-            if ($m = $cc->get_next_messages($c, $data['data']['lastChat'])) {
+            if ($m = $cc->getNextMessages($c, $data['data']['lastChat'])) {
               if (!isset($res['data']['messages'])) {
                 $res['data']['messages'] = [];
               }
               $res['data']['messages'][$c] = $m;
               $max = $m[count($m)-1]['time'];
-              if (\bbn\x::compare_floats($max, $last, '>')) {
+              if (\bbn\X::compareFloats($max, $last, '>')) {
                 $last = $max;
               }
             }
@@ -71,10 +71,10 @@ return [[
         }
       }
       else if (empty($data['data']['lastChat'])
-        && ($max = $cc->get_max_last_activity())
-        && ($chats_hash = $cc->get_chats_hash($max))
+        && ($max = $cc->getMaxLastActivity())
+        && ($chats_hash = $cc->getChatsHash($max))
         && ($chats_hash !== $data['data']['chatsHash'])
-        && ($chats = $cc->get_chats($max))
+        && ($chats = $cc->getChats($max))
       ) {
         $res['data']['last'] = $max;
         $res['data']['chats'] = [
@@ -84,9 +84,9 @@ return [[
         foreach ($chats as $c) {
           $res['data']['chats']['list'][$c] = [
             'info' => $cc->info($c),
-            'admins' => $cc->get_admins($c),
-            'participants' => $cc->get_participants($c, false, true),
-            'messages' => $cc->get_prev_messages($c, $max)
+            'admins' => $cc->getAdmins($c),
+            'participants' => $cc->getParticipants($c, false, true),
+            'messages' => $cc->getPrevMessages($c, $max)
           ];
         }
         if (!isset($res['data']['serviceWorkers'])) {
@@ -107,7 +107,7 @@ return [[
       'data' => []
     ];
     if (isset($data['data']['online'])) {
-      $users = $model->get_model($model->plugin_url('appui-chat').'/users/online')['online'];
+      $users = $model->getModel($model->pluginUrl('appui-chat').'/users/online')['online'];
       $users_hash = md5(json_encode($users));
       if ($users_hash !== $data['data']['usersHash']) {
         $res['data'] = [

@@ -7,5 +7,5 @@
  */
 
 return [
-  'success' => $model->inc->chat->set_offline()
+  'success' => $model->inc->chat->setOffline()
 ];

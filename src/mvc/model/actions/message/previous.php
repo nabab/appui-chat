@@ -1,9 +1,9 @@
 <?php
-/** @var $model \bbn\mvc\model */
+/** @var $model \bbn\Mvc\Model */
 if ( !empty($model->data['id_chat']) && !empty($model->data['time']) ){
   return [
     'success' => true,
-    'messages' => $model->inc->chat->get_prev_messages($model->data['id_chat'], $model->data['time'])
+    'messages' => $model->inc->chat->getPrevMessages($model->data['id_chat'], $model->data['time'])
   ];
 }
 return ['success' => false];

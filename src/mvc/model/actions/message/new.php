@@ -1,5 +1,5 @@
 <?php
-/** @var $model \bbn\mvc\model */
+/** @var $model \bbn\Mvc\Model */
 if (
   !empty($model->data['text']) &&
   (
@@ -7,7 +7,7 @@ if (
     (
       !empty($model->data['users']) &&
       !empty($model->data['id_temp']) &&
-      ($id_chat = $model->inc->chat->get_chat_by_users($model->data['users']))
+      ($id_chat = $model->inc->chat->getChatByUsers($model->data['users']))
     )
   )
 ){

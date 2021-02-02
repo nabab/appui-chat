@@ -7,5 +7,5 @@
  */
 
 return [
-  'success' => $model->inc->chat->set_online()
+  'success' => $model->inc->chat->setOnline()
 ];

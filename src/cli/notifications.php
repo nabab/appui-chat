@@ -1,9 +1,9 @@
 <?php
-$chat = new \bbn\appui\chat($ctrl->db, $ctrl->inc->user);
-$notifications = new \bbn\appui\notification($ctrl->db);
-$ucfg = $ctrl->inc->user->get_class_cfg();
+$chat = new \bbn\Appui\Chat($ctrl->db, $ctrl->inc->user);
+$notifications = new \bbn\Appui\Notification($ctrl->db);
+$ucfg = $ctrl->inc->user->getClassCfg();
 $ufields = $ucfg['arch']['users'];
-$chats = $ctrl->db->select_all([
+$chats = $ctrl->db->selectAll([
   'table' => 'bbn_chats_users',
   'fields' => [
     'bbn_chats_users.id_chat',
@@ -30,10 +30,10 @@ $chats = $ctrl->db->select_all([
     'table' => $ucfg['table'],
     'on' => [
       'conditions' => [[
-        'field' => $ctrl->db->col_full_name('id_user', 'bbn_chats_users'),
-        'exp' => $ctrl->db->col_full_name($ufields['id'], $ucfg['table'])
+        'field' => $ctrl->db->colFullName('id_user', 'bbn_chats_users'),
+        'exp' => $ctrl->db->colFullName($ufields['id'], $ucfg['table'])
       ], [
-        'field' => $ctrl->db->col_full_name($ufields['active'], $ucfg['table']),
+        'field' => $ctrl->db->colFullName($ufields['active'], $ucfg['table']),
         'value' => 1
       ]]
     ]
@@ -61,19 +61,19 @@ $chats = $ctrl->db->select_all([
 ]);
 $did = 0;
 foreach ($chats as $c) {
-  if ($mess = $chat->get_next_messages($c->id_chat, $c->last_activity, 0, $c->id_user)) {
+  if ($mess = $chat->getNextMessages($c->id_chat, $c->last_activity, 0, $c->id_user)) {
     $n = [
-    	'title' => _('New messages received from') . ' "' . ($c->title ?: $ctrl->inc->user->get_name($mess[0]->id_user)) . '"',
+    	'title' => _('New messages received from') . ' "' . ($c->title ?: $ctrl->inc->user->getName($mess[0]->id_user)) . '"',
       'content' => ''
   	];
     foreach ($mess as $m) {
       if (!empty($m['user'])) {
-        $n['content'] .= "<div>{$ctrl->inc->user->get_name($m['user'])} " . _('wrote on') . date(' d/m/Y H:i', $m['time']) . "<br>$m[message]</div><br>";
+        $n['content'] .= "<div>{$ctrl->inc->user->getName($m['user'])} " . _('wrote on') . date(' d/m/Y H:i', $m['time']) . "<br>$m[message]</div><br>";
       }
     }
     if (!empty($n['content'])
     	&& $notifications->insert($n['title'], $n['content'], 'chat/unread_messages', [$c->id_user])
-      && $chat->set_last_notification($c->id_chat, $c->id_user)
+      && $chat->setLastNotification($c->id_chat, $c->id_user)
     ) {
       $did++;
     }

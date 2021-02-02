@@ -1,8 +1,8 @@
 <?php
-/** @var $model \bbn\mvc\model */
+/** @var $model \bbn\Mvc\Model */
 if ( !empty($model->data['id_chat']) && !empty($model->data['title']) ){
   return [
-    'success' => $model->inc->chat->set_title($model->data['id_chat'], $model->data['title'])
+    'success' => $model->inc->chat->setTitle($model->data['id_chat'], $model->data['title'])
   ];
 }
 return ['success' => false];
