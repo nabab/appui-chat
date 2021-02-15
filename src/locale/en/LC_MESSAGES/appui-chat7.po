@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 1\n"
+"Report-Msgid-Bugs-To: info@bbn.so\n"
+"last-Translator: BBN Solutions <support@bbn.solutions>\n"
+"Language-Team: EN <EN@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-02-15 01:09+0100\n"
+"POT-Revision-Date: 2021-02-15 01:09+0100\n"
+"Language: en\n"
+"X-Domain: appui-chat\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: /home/thomas/domains/apstapp.thomas.lan/_appui/vendor/bbn/appui-chat/src/cli/notifications.php
+msgid "New messages received from"
+msgstr "New messages received from"
+
+#: /home/thomas/domains/apstapp.thomas.lan/_appui/vendor/bbn/appui-chat/src/cli/notifications.php
+msgid "wrote on"
+msgstr "wrote on"
+
+#: /home/thomas/domains/apstapp.thomas.lan/_appui/vendor/bbn/appui-chat/src/cli/notifications.php
+msgid "To send"
+msgstr "To send"
+
+#: /home/thomas/domains/apstapp.thomas.lan/_appui/vendor/bbn/appui-chat/src/cli/notifications.php
+msgid "Sent"
+msgstr "Sent"
+
+#: /home/thomas/domains/apstapp.thomas.lan/_appui/vendor/bbn/appui-chat/src/mvc/public/home.php
+msgid "Chat"
+msgstr "Chat"
+
+#: /home/thomas/domains/apstapp.thomas.lan/_appui/vendor/bbn/appui-chat/src/mvc/public/users.php
+msgid "Online users"
+msgstr "Online users"
