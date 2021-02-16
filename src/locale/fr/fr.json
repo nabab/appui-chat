@@ -1,1 +1,818 @@
-{"":{"Administrateur":"Administrateur","Spectateur":"Spectateur","Voulez-vous r\u00e9initialiser le mot de passe?":"Voulez-vous r\u00e9initialiser le mot de passe?","Voulez-vous r\u00e9parer le profil (WordPress)?":"Voulez-vous r\u00e9parer le profil (WordPress)?","Cache de l'adh\u00e9rent mis \u00e0 jour":"Cache de l'adh\u00e9rent mis \u00e0 jour","Cet adh\u00e9rent a \u00e9t\u00e9 modifi\u00e9, voulez-vous le recharger?":"Cet adh\u00e9rent a \u00e9t\u00e9 modifi\u00e9, voulez-vous le recharger?","Actionnaires":"Actionnaires","Historique":"Historique","Les propri\u00e9t\u00e9s \u00e9crites de cette couleur ont \u00e9t\u00e9 modifi\u00e9es par l'adh\u00e9rent et ce changement doit encore etre approuv\u00e9":"Les propri\u00e9t\u00e9s \u00e9crites de cette couleur ont \u00e9t\u00e9 modifi\u00e9es par l'adh\u00e9rent et ce changement doit encore etre approuv\u00e9","Un probl\u00e8me est survenu":"Un probl\u00e8me est survenu","Modification r\u00e9ussie":"Modification r\u00e9ussie","D\u00e9finition d'un contact":"D\u00e9finition d'un contact","Ce champ est obligatoire":"Ce champ est obligatoire","D\u00e9finition d'une adresse":"D\u00e9finition d'une adresse","Fin":"Fin","Date r\u00e9f\u00e9rence":"Date r\u00e9f\u00e9rence","La date de fin ne peut ^etre antrieure ":"La date de fin ne peut ^etre antrieure","La date de r\u00e9f\u00e9rence (celle \u00e0 laquelle se r\u00e9f\u00e8re le document) ne peut \u00eatre post\u00e9rieure \u00e0 la date du document":"La date de r\u00e9f\u00e9rence (celle \u00e0 laquelle se r\u00e9f\u00e8re le document) ne peut \u00eatre post\u00e9rieure \u00e0 la date du document","Supprimer":"Supprimer","Impossible de supprimer cette cl\u00f4ture si elle est la":"Impossible de supprimer cette cl\u00f4ture si elle est la","ou la":"ou la","Prochaine date de cl\u00f4ture":"Prochaine date de cl\u00f4ture","Vous devez modifier ces valeurs avant de pouvoir la supprimer.":"Vous devez modifier ces valeurs avant de pouvoir la supprimer.","\u00cates-vous s\u00fbr de vouloir supprimer cette date de cl\u00f4ture?":"\u00cates-vous s\u00fbr de vouloir supprimer cette date de cl\u00f4ture?","Supprim\u00e9":"Supprim\u00e9","Ajouter une date de cl\u00f4ture":"Ajouter une date de cl\u00f4ture","\u00cates-vous s\u00fbr de vouloir ajouter cette nouvelle date de cl\u00f4ture?":"\u00cates-vous s\u00fbr de vouloir ajouter cette nouvelle date de cl\u00f4ture?","Please insert a valid phone number":"Please insert a valid phone number"," adh\u00e9rents suivants:":"adh\u00e9rents suivants:","Voulez-vous que la fusion soit globale donc aussi effective aussi pour ces adh\u00e9rents?":"Voulez-vous que la fusion soit globale donc aussi effective aussi pour ces adh\u00e9rents?","(Si vous pensez que ces personnes\/adresses sont r\u00e9ellement les m\u00eames vous devriez les fusionner globalement)":"(Si vous pensez que ces personnes\/adresses sont r\u00e9ellement les m\u00eames vous devriez les fusionner globalement)","Cotisation \u00e9mise!":"Cotisation \u00e9mise!","Quelque chose n'a pas fonctionn\u00e9":"Quelque chose n'a pas fonctionn\u00e9","Date de l'appel":"Date de l'appel","Envoyer par eMail":"Envoyer par eMail","DVA":"DVA","Voulez-vous que cette modification soit imm\u00e9diatement valid\u00e9e?":"Voulez-vous que cette modification soit imm\u00e9diatement valid\u00e9e?","Coefficient":"Coefficient","P\u00e9nalit\u00e9":"P\u00e9nalit\u00e9","Exempt\u00e9 de formation":"Exempt\u00e9 de formation","Formation Gestion":"Formation Gestion","Formation TVA":"Formation TVA","En cours":"En cours","Adh\u00e9rent EdV":"Adh\u00e9rent EdV","Oui":"Oui","Non":"Non","Veuillez rentrer une date avant de choisir un masque afin que celui-ci puisse \u00eatre dat\u00e9":"Veuillez rentrer une date avant de choisir un masque afin que celui-ci puisse \u00eatre dat\u00e9","PDF":"PDF","Date obligatoire":"Date obligatoire","Enregistr\u00e9":"Enregistr\u00e9","Enregistr\u00e8e":"Enregistr\u00e9e","Modifier le type d'un document peut \u00eatre dangereux si le document \u00e9tait ou devient une liasse ou une DVA, car les \u00e9critures ne seront pas prises en compte.":"Modifier le type d'un document peut \u00eatre dangereux si le document \u00e9tait ou devient une liasse ou une DVA, car les \u00e9critures ne seront pas prises en compte.","Dans ce cas, il vaut mieux supprimer le document et en cr\u00e9er un nouveau.":"Dans ce cas, il vaut mieux supprimer le document et en cr\u00e9er un nouveau.","\u00cates-vous s\u00fbr de vouloir modifier le type du document?":"\u00cates-vous s\u00fbr de vouloir modifier le type du document?","Modifier la cl\u00f4ture d'un document peut \u00eatre dangereux car les \u00e9critures peuvent d\u00e9j\u00e0 avoir \u00e9t\u00e9 prises en compte.":"Modifier la cl\u00f4ture d'un document peut \u00eatre dangereux car les \u00e9critures peuvent d\u00e9j\u00e0 avoir \u00e9t\u00e9 prises en compte.","\u00cates-vous s\u00fbr de vouloir modifier la cl\u00f4ture du document?":"\u00cates-vous s\u00fbr de vouloir modifier la cl\u00f4ture du document?","Visualisation du fichier EDI":"Visualisation du fichier EDI","Tous les documents de ce type ont d\u00e9ja \u00e9t\u00e9 ajout\u00e9s.":"Tous les documents de ce type ont d\u00e9ja \u00e9t\u00e9 ajout\u00e9s.","Si vous souhaitez remplacer un document existant, supprimez-le d'abord ou bien modifiez-le.":"Si vous souhaitez remplacer un document existant, supprimez-le d'abord ou bien modifiez-le.","Si vous pensez que vous devriez pouvoir ajouter ce document, contactez le support afin d'en parler et le cas \u00e9ch\u00e9ant modifier l'algorithme.":"Si vous pensez que vous devriez pouvoir ajouter ce document, contactez le support afin d'en parler et le cas \u00e9ch\u00e9ant modifier l'algorithme.","Erreur":"Erreur","La date de radiation ne peut \u00eatre ant\u00e9rieure \u00e0 la date d'adh\u00e9sion":"La date de radiation ne peut \u00eatre ant\u00e9rieure \u00e0 la date d'adh\u00e9sion","La modification n'a pas \u00e9t\u00e9 prise en compte car elle ne colle pas avec la v\u00e9rification suivante":"La modification n'a pas \u00e9t\u00e9 prise en compte car elle ne colle pas avec la v\u00e9rification suivante","Sauvegarder et appliquer les calculs":"Sauvegarder et appliquer les calculs","Les \u00e9critures ont bien \u00e9t\u00e9 modifi\u00e9es et les ratios et la note ont \u00e9t\u00e9 mis \u00e0 jour":"Les \u00e9critures ont bien \u00e9t\u00e9 modifi\u00e9es et les ratios et la note ont \u00e9t\u00e9 mis \u00e0 jour","Annuler les modifications":"Annuler les modifications","EDI":"EDI","\u00cates-vous s\u00fbr de vouloir d\u00e9clarer cette DVA comme nulle? Si des valeurs sont renseign\u00e9es elles seront toutes mises \u00e0 z\u00e9ro.":"\u00cates-vous s\u00fbr de vouloir d\u00e9clarer cette DVA comme nulle? Si des valeurs sont renseign\u00e9es elles seront toutes mises \u00e0 z\u00e9ro.","Nouveau Actionnaire":"Nouveau Actionnaire","Modifier Actionnaire":"Modifier Actionnaire","\u00cates-vous bien s\u00fbr de vouloir supprimer ce actionnaire?":"\u00cates-vous bien s\u00fbr de vouloir supprimer ce actionnaire?","Modifier lieu":"Modifier lieu","Nouvelle attestation":"Nouvelle attestation","\u00cates-vous bien s\u00fbr de vouloir supprimer cette attestation?":"\u00cates-vous bien s\u00fbr de vouloir supprimer cette attestation?","Total":"Total","Fin: ":"Fin:","Date d'\u00e9valuation: ":"Date d'\u00e9valuation:","Taxe fonci\u00e8re: ":"Taxe fonci\u00e8re:","Adresse: ":"Adresse:","Nouveau Contre-garant":"Nouveau Contre-garant","Modifier Contre-garant":"Modifier Contre-garant","\u00cates-vous s\u00fbr de vouloir supprimer cet \u00e9l\u00e9ment?":"\u00cates-vous s\u00fbr de vouloir supprimer cet \u00e9l\u00e9ment?","Ajouter un Contre-garant":"Ajouter un Contre-garant","Entit\u00e9 juridique":"Entit\u00e9 juridique","Adresse de courrier":"Adresse de courrier","Repr\u00e9sentant":"Repr\u00e9sentant","Information financi\u00e8re":"Information financi\u00e8re","Marque":"Marque","Succursale":"Succursale","Formation":"Formation","Dates de cl\u00f4ture":"Dates de cl\u00f4ture","Information Compl\u00e9mentaire":"Information Compl\u00e9mentaire","Adresse email principale":"Adresse eMail principale","Adresse email publique":"Adresse eMail publique","Fin du prochain exercice":"Fin du prochain exercice","E-mail":"E-mail","Acc\u00e8s espace adh\u00e8rents":"Acc\u00e8s espace adh\u00e9rents","Insertion":"Insertion","Modification":"Modification","\u00c9limination":"\u00c9limination","\u00cates-vous s\u00fbr de vouloir supprimer cette demande?":"\u00cates-vous s\u00fbr de vouloir supprimer cette demande?","Pas pr\u00eat":"Pas pr\u00eat","V\u00e9rifier e-mail":"V\u00e9rifier e-mail","En attente de traitement":"En attente de traitement","Accept\u00e9":"Accept\u00e9","Refus\u00e9":"Refus\u00e9","Attente validation bureau":"Attente validation bureau","Accepter":"Accepter","Refuser":"Refuser","Mettre en attente de validation par le bureau":"Mettre en attente de validation par le bureau","Cette modification ne sera plus dans la liste des modifications pr\u00eates, et il vous faudra l'accepter au prochain bureau pour qu'elle devienne effective. \u00cates-vous s\u00fbr que c'est ce que vous voulez faire?":"Cette modification ne sera plus dans la liste des modifications pr\u00eates, et il vous faudra l'accepter au prochain bureau pour qu'elle devienne effective. \u00cates-vous s\u00fbr que c'est ce que vous voulez faire?","\u00cates-vous s\u00fbr de vouloir accepter cette demande?":"\u00cates-vous s\u00fbr de vouloir accepter cette demande?","\u00cates-vous s\u00fbr de vouloir refuser cette demande?":"\u00cates-vous s\u00fbr de vouloir refuser cette demande?","Voulez-vous importer les documents envoy\u00e9s?":"Voulez-vous importer les documents envoy\u00e9s?","Importation de documents":"Importation de documents","Obligatoire":"Obligatoire","Optionnel":"Optionnel","Envoy\u00e9":"Envoy\u00e9","\u00cates-vous s\u00fbr de vouloir renvoyer l'e-mail de v\u00e9rification?":"\u00cates-vous s\u00fbr de vouloir renvoyer l'e-mail de v\u00e9rification?","Email envoy\u00e9":"Email envoy\u00e9","Documents a produire":"Documents a produire","\u00cates-vous s\u00fbr de vouloir refuser ce document?":"\u00cates-vous s\u00fbr de vouloir refuser ce document?","Voulez-vous que l'utilisateur re&ccedil;oive un email l'en informant":"Voulez-vous que l'utilisateur re&ccedil;oive un email l'en informant","Envoyer un email":"Envoyer un email","Message additionnel":"Message additionnel","Ins\u00e9rer":"Ins\u00e9rer","R\u00e9parer le profil (WordPress)":"R\u00e9parer le profil (WordPress)","Contact principal":"Contact principal","\u00cates-vous bien s\u00fbr de vouloir supprimer ce contact?":"\u00cates-vous bien s\u00fbr de vouloir supprimer ce contact?","Supprim\u00e9 functions":"Supprim\u00e9 functions","Fusion des tiers":"Fusion des tiers","Calculee":"Calculee","Appelee":"Appelee","Calcul de la cotisation":"Calcul de la cotisation","Cotisation":"Cotisation","prete pour l'appel initial":"prete pour l'appel initial","Reajustement":"Reajustement","Appel de cotisation":"Appel de cotisation","du":"du","Penalite":"P\u00e9nalit\u00e9","Bonus\/Malus":"Bonus\/Malus","\u00cates-vous s\u00fbr de vouloir l'envoyer par email?":"\u00cates-vous s\u00fbr de vouloir l'envoyer par email?","\u00cates-vous certain de vouloir annuler cet appel?":"\u00cates-vous certain de vouloir annuler cet appel?","Voir le d\u00e9tail":"Voir le d\u00e9tail","T\u00e9l\u00e9charger l'appel en PDF":"T\u00e9l\u00e9charger l'appel en PDF","T\u00e9l\u00e9charger l'appel en CSV":"T\u00e9l\u00e9charger l'appel en CSV","Envoyer par email":"Envoyer par eMail","Annuler cet appel":"Annuler cet appel","Aucun fichier joint":"Aucun fichier joint","Votre DVA doit \u00eatre remplie. Si elle est nulle et qu'aucune saisie n'est n\u00e9cessaire, vous devez cocher la case \"DVA nulle\"":"Votre DVA doit \u00eatre remplie. Si elle est nulle et qu'aucune saisie n'est n\u00e9cessaire, vous devez cocher la case \"DVA nulle\"","Envoi d'un fichier EDI":"Envoi d'un fichier EDI","Saisie manuelle r\u00e9gime r\u00e9el":"Saisie manuelle r\u00e9gime r\u00e9el","Saisie manuelle r\u00e9gime simplifi\u00e9":"Saisie manuelle r\u00e9gime simplifi\u00e9","Echec":"Echec","Succes":"Succes","Pret":"Pr\u00eat","Voir":"Voir","Modifier Expert":"Modifier Expert","Exercice ":"Exercice","Fields picker":"Fields picker","\u00cates-vous s\u00fbr de vouloir envoyer ce document \u00e0 Infol\u00e9gale pour traitement?":"\u00cates-vous s\u00fbr de vouloir envoyer ce document \u00e0 Infol\u00e9gale pour traitement?","Pas de RCS":"Pas de RCS","Envoyer":"Envoyer","Aucun fichier":"Aucun fichier","Recalculer les ratios":"Recalculer les ratios","Annuler":"Annuler","Voulez-vous vraiment":"Voulez-vous vraiment","supprimer cet enregistrement":"supprimer cet enregistrement","revenir \u00e0 la valeur pr\u00e9c\u00e9dente":"revenir \u00e0 la valeur pr\u00e9c\u00e9dente","restaurer cet enregistrement":"restaurer cet enregistrement","supprimer cet enregistrement \u00e0 nouveau":"supprimer cet enregistrement \u00e0 nouveau","La fiche va \u00eatre recharg\u00e9e afin de prendre en compte votre modification.":"La fiche va \u00eatre recharg\u00e9e afin de prendre en compte votre modification.","Error":"Erreur","Cela n'a pas fonctionn\u00e9...":"Cela n'a pas fonctionn\u00e9...","Merci de cr\u00e9er un bug en sp\u00e9cifiant l'entr\u00e9e de l'historique que vous n'avaez pas pu annuler":"Merci de cr\u00e9er un bug en sp\u00e9cifiant l'entr\u00e9e de l'historique que vous n'avaez pas pu annuler","Infos":"Infos","Tutorat":"Tutorat","Modification des informations de formation":"Modification des informations de formation","Nouveau justificatif":"Nouveau justificatif","Calcul de la note":"Calcul de la note","Modification des informations sur la soci\u00e9t\u00e9":"Modification des informations sur la soci\u00e9t\u00e9","Modification des informations financi\u00e8res":"Modification des informations financi\u00e8res","Informations compl\u00e9mentaires":"Informations compl\u00e9mentaires","Modification des dates de cl\u00f4ture":"Modification des dates de cl\u00f4ture","Nouvelle demande de document":"Nouvelle demande de document","Configuration de la fiche adh\u00e9rent PDF":"Configuration de la fiche adh\u00e9rent PDF","Nouveau courrier":"Nouveau courrier","Gestion du Sigle":"Gestion du Sigle","Clear cache":"Clear cache","Modifier":"Modifier","Demande de justificatif":"Demande de justificatif","Demande d'attestation":"Demande d'attestation","Demande de attestation":"Demande de attestation","Utilisateurs":"Utilisateurs","\u00cates-vous s\u00fbr de vouloir supprimer cette marque?":"\u00cates-vous s\u00fbr de vouloir supprimer cette marque?","Non d\u00e9fini":"Non d\u00e9fini","Nouvelle Marque":"Nouvelle Marque","Modifier Marque":"Modifier Marque","New note":"New note","Inserted":"Inserted","Edit":"Modifier","Edited":"Edited","Are you sure you want to delete this note?":"Are you sure you want to delete this note?","Deleted":"Deleted","Reply to":"Reply to","Refus de document":"Refus de document","\u00cates-vous sur de vouloir accepter ce document?":"\u00cates-vous sur de vouloir accepter ce document?","Les documents ont bien \u00e9t\u00e9 trait\u00e9s.":"Les documents ont bien \u00e9t\u00e9 trait\u00e9s.","Voulez-vous que l'utilisateur re&ccedil;oive un email l'en informant?":"Voulez-vous que l'utilisateur re&ccedil;oive un email l'en informant?","Il n'est pas possible d'envoyer un courrier \u00e9lectronique au client car l'email principal n'a pas \u00e9t\u00e9 d\u00e9fini":"Il n'est pas possible d'envoyer un courrier \u00e9lectronique au client car l'email principal n'a pas \u00e9t\u00e9 d\u00e9fini","Un email de confirmation a \u00e9t\u00e9 envoy\u00e9 \u00e0 l'adh\u00e9rent.":"Un email de confirmation a \u00e9t\u00e9 envoy\u00e9 \u00e0 l'adh\u00e9rent.","\u00cates-vous bien s\u00fbr de vouloir supprimer ce document?":"\u00cates-vous bien s\u00fbr de vouloir supprimer ce document?","Trait\u00e9":"Trait\u00e9","Non trait\u00e9":"Non trait\u00e9","Ajout manuel de document":"Ajout manuel de document","Modification de document":"Modification de document","Commentaire pour":"Commentaire pour","Ecritures":"Ecritures","Ecritures en attente":"Ecritures en attente","Pas de commentaire":"Pas de commentaire","Radier":"Radier","\u00cates-vous s\u00fbr de vouloir supprimer cette succursale?":"\u00cates-vous s\u00fbr de vouloir supprimer cette succursale?","Radiation d'une succursale":"Radiation d'une succursale","Nouvelle Succursale":"Nouvelle Succursale","Modifier Succursale":"Modifier Succursale","Ajouter une Succursale":"Ajouter une Succursale","Search for a succursales":"Search for a succursales","Type at least 3 characters and press enter to search between succursales":"Type at least 3 characters and press enter to search between succursales","months":"months","hours":"hours","days":"days","Titre":"Titre","Attestation":"Attestation","Ajouter un tuteur":"Ajouter un tuteur","Ajouter un repr\u00e9sentant":"Ajouter un repr\u00e9sentant","Changer l'adresse de courrier":"Changer l'adresse de courrier","Changer l'adresse du si\u00e8ge social":"Changer l'adresse du si\u00e8ge social","\u00cates-vous bien s\u00fbr de vouloir supprimer ce courrier?":"\u00cates-vous bien s\u00fbr de vouloir supprimer ce courrier?","\u00cates-vous bien s\u00fbr de vouloir supprimer ce repr\u00e9sentant?":"\u00cates-vous bien s\u00fbr de vouloir supprimer ce repr\u00e9sentant?","pr\u00e9visionnelle":"pr\u00e9visionnelle","Modification des informations pour la cotisation":"Modification des informations pour la cotisation","R\u00e9ajustement de cotisation pour":"R\u00e9ajustement de cotisation pour","Appel initial de cotisation pour":"Appel initial de cotisation pour","Impossible de proc\u00e9der au calcul ou de retrouver la cotisaiton demand\u00e9e":"Impossible de proc\u00e9der au calcul ou de retrouver la cotisaiton demand\u00e9e","Bar\u00eame par d\u00e9faut modifi\u00e9<br>Il sera appliqu\u00e9 \u00e0 la prochaine g\u00e9n\u00e9ration de bar\u00eame automatis\u00e9e.":"Bar\u00eame par d\u00e9faut modifi\u00e9<br>Il sera appliqu\u00e9 \u00e0 la prochaine g\u00e9n\u00e9ration de bar\u00eame automatis\u00e9e.","Poste":"Poste","Prev":"Prev","Modification prise en compte":"Modification prise en compte","Il y a eu un probl\u00e8me dans la modification":"Il y a eu un probl\u00e8me dans la modification","personne":"Personne","Pas de statut prospect":"Pas de statut prospect","Selectionner les utilisateurs":"Selectionner les utilisateurs","Contacter APST":"Contacter APST","Visualisation d'un compte":"Visualisation d'un compte","\u00cates-vous bien s\u00fbr de vouloir supprimer cette demande?":"\u00cates-vous bien s\u00fbr de vouloir supprimer cette demande?","demande supprim\u00e9e":"demande supprim\u00e9e","Ceci n'est pas une valuer!":"Ceci n'est pas une valuer!","\u00cates-vous s\u00fbr de vouloir annuler le statut d'ex Nouvel Entrepreneur?":"\u00cates-vous s\u00fbr de vouloir annuler le statut d'ex Nouvel Entrepreneur?","\u00cates-vous s\u00fbr de vouloir supprimer le statut d'actuel Nouvel Entrepreneur et de le rendre ex?":"\u00cates-vous s\u00fbr de vouloir supprimer le statut d'actuel Nouvel Entrepreneur et de le rendre ex?","\u00cates-vous bien s\u00fbr de vouloir supprimer ce tuteur?":"\u00cates-vous bien s\u00fbr de vouloir supprimer ce tuteur?","Montrer seulement les diff\u00e9rences":"Montrer seulement les diff\u00e9rences","Tout montrer":"Tout montrer","Remplacer avec le contenu du fichier EDI":"Remplacer avec le contenu du fichier EDI","Attention, toutes les \u00e9critures actuelles seront supprim\u00e9es pour \u00eatre remplac\u00e9es par les \u00e9critures du fichier EDI.":"Attention, toutes les \u00e9critures actuelles seront supprim\u00e9es pour \u00eatre remplac\u00e9es par les \u00e9critures du fichier EDI.","\u00cates - vous s\u00fbr de vouloir continuer?":"\u00cates - vous s\u00fbr de vouloir continuer?","Ann\u00e9e":"ANN\u00c9E","Sauvegarde de la liste":"Sauvegarde de la liste","Save as widget":"Save as widget","Save as mailing list":"Save as mailing list","Liste de diffusion enregistr\u00e9e":"Liste de diffusion enregistr\u00e9e","Sauver sous Excel":"Sauver sous Excel","Sauver en tant que widget":"Sauver en tant que widget","Sauver en tant que Mailing list":"Sauver en tant que Mailing list","\u00cates-vous s\u00fbr de vouloir remplacer la s\u00e9lection existante?":"\u00cates-vous s\u00fbr de vouloir remplacer la s\u00e9lection existante?","Saved":"Saved","Are you sure you want to delete this list?":"Are you sure you want to delete this list?","Liste supprim\u00e9e":"Liste supprim\u00e9e","Reprivatiser":"Reprivatiser","Liste privatis\u00e9e":"Liste privatis\u00e9e","Ne plus partager du tout":"Ne plus partager du tout","Rendre public":"Rendre public","Liste publique":"Liste publique","Ne plus partager avec mon groupe":"Ne plus partager avec mon groupe","Success":"Success","Partager avec mon groupe":"Partager avec mon groupe","Liste partag\u00e9e avec le groupe ":"Liste partag\u00e9e avec le groupe","Partager avec un groupe":"Partager avec un groupe","Partager avec un utilisateur":"Partager avec un utilisateur","Close":"Close","\u00cates-vous s\u00fbr de vouloir valider cette modification?":"\u00cates-vous s\u00fbr de vouloir valider cette modification?","Quelque chose n'a pas fonctionn\u00e9...":"Quelque chose n'a pas fonctionn\u00e9...","\u00cates-vous s\u00fbr de vouloir annuler cette modification?":"\u00cates-vous s\u00fbr de vouloir annuler cette modification?","Are you sure you want to delete this widget?":"Are you sure you want to delete this widget?","Widget deleted":"Widget deleted","Jour":"JOUR","Mois":"mois","Debut":"Debut","Delete":"Supprimer","Nouvelles coordonn\u00e9es":"Nouvelles coordonn\u00e9es","R\u00e9ception des comptes":"R\u00e9ception des comptes","Message":"Message","Ordre horizontal":"Ordre horizontal","G\u00e9n\u00e9rer":"G\u00e9n\u00e9rer","Cancel":"Cancel","Version":"Version","Ordre vertical":"Ordre vertical","Code fiche simplifi\u00e9":"Code fiche simplifi\u00e9","Unit\u00e9":"Unit\u00e9","Euros":"Euros","Pourcentage":"Pourcentage","Salari\u00e9s":"Salari\u00e9s","Dur\u00e9e en mois":"Dur\u00e9e en mois","Mois de l'ann\u00e9e":"Mois de l'ann\u00e9e","Bool\u00e9en":"Bool\u00e9en","Pr\u00e9sent dans la fiche financi\u00e8re simplifi\u00e9e":"Pr\u00e9sent dans la fiche financi\u00e8re simplifi\u00e9e","Pr\u00e9sent dans la fiche financi\u00e8re d\u00e9taill\u00e9e":"Pr\u00e9sent dans la fiche financi\u00e8re d\u00e9taill\u00e9e","Confirmation si valeur nulle":"Confirmation si valeur nulle","Code alternatif":"Code alternatif","Num\u00e9ro de page si applicable":"Num\u00e9ro de page si applicable","Nouveau champ":"Nouveau champ","Voir les champs de:":"Voir les champs de:","URL":"URL","Search":"Search","Import":"Import","Export":"Export","Envoi":"Envoi","Post title":"Post title","Author":"Author","Date GMT":"Date GMT","Post Status":"Post Status","Nouveau Bureau":"Nouveau Bureau","\u00cates-vous s\u00fbr de vouloir effacer cet \u00e9v\u00e8nement?":"\u00cates-vous s\u00fbr de vouloir effacer cet \u00e9v\u00e8nement?","L'adh\u00e9rent n'a pas termin\u00e9 le t\u00e9l\u00e9chargement des documents requis":"L'adh\u00e9rent n'a pas termin\u00e9 le t\u00e9l\u00e9chargement des documents requis","L'adresse email n'a pas encore \u00e9t\u00e9 valid\u00e9e par l'adh\u00e9rent":"L'adresse email n'a pas encore \u00e9t\u00e9 valid\u00e9e par l'adh\u00e9rent","Email en attente de validation":"Email en attente de validation","La modification propos\u00e9e par l'adh\u00e9rent est pr\u00eate \u00e0 \u00eatre trait\u00e9e":"La modification propos\u00e9e par l'adh\u00e9rent est pr\u00eate \u00e0 \u00eatre trait\u00e9e","Aucune ligne s\u00e9lectionn\u00e9e":"Aucune ligne s\u00e9lectionn\u00e9e","\u00cates-vous s\u00fbr de vouloir envoyer toutes les liasses s\u00e9lectionn\u00e9es \u00e0 Infol\u00e9gale?":"\u00cates-vous s\u00fbr de vouloir envoyer toutes les liasses s\u00e9lectionn\u00e9es \u00e0 Infol\u00e9gale?","Toutes les liasses seront envoy\u00e9es dans les prochaines minutes":"Toutes les liasses seront envoy\u00e9es dans les prochaines minutes","\u00cates-vous s\u00fbr de vouloir envoyer toutes les liasses avec des fichiers et sans \u00e9critures \u00e0 Infol\u00e9gale?":"\u00cates-vous s\u00fbr de vouloir envoyer toutes les liasses avec des fichiers et sans \u00e9critures \u00e0 Infol\u00e9gale?","Toutes les liasses commenceront \u00e0 \u00eatre envoy\u00e9es dans les prochaines secondes":"Toutes les liasses commenceront \u00e0 \u00eatre envoy\u00e9es dans les prochaines secondes","Pas de fichiers":"Pas de fichiers","Nouveau conseil d\u2019administration":"Nouveau conseil d\u2019administration","Map":"Map","Modifier coordonn\u00e9es":"Modifier coordonn\u00e9es","\u00cates-vous bien s\u00fbr de vouloir supprimer?":"\u00cates-vous bien s\u00fbr de vouloir supprimer?","Maps":"Maps","Fichier Excel":"Fichier Excel","Fichier PDF":"Fichier PDF","Envoi \u00e0 Infolegale":"Envoi \u00e0 Infolegale","En attente":"En attente","Trait\u00c3\u00a9es":"Trait\u00c3\u00a9es","Save as Excel":"Save as Excel","Fusion des lieux":"Fusion des lieux","Plan":"Plan","Cet adh\u00e9rent existe d\u00e9j\u00e0":"Cet adh\u00e9rent existe d\u00e9j\u00e0","Adh\u00e9rent existant!":"Adh\u00e9rent existant!","Entit\u00e9 d\u00e9j\u00e0 existante?":"Entit\u00e9 d\u00e9j\u00e0 existante?","Non disponible":"Non disponible","Nouvelle entit\u00e9":"Nouvelle entit\u00e9","impossible de r\u00e9cup\u00e9rer les informations de cette entit\u00e9!":"impossible de r\u00e9cup\u00e9rer les informations de cette entit\u00e9!","Le num\u00e9ro rcs entr\u00e9 exist d\u00e9j\u00e0":"Le num\u00e9ro rcs entr\u00e9 exist d\u00e9j\u00e0","Erreur pendant le processus de cr\u00e9ation :(":"Erreur pendant le processus de cr\u00e9ation :(","JOUR":"JOUR","MOIS":"mois","ANN\u00c9E":"ANN\u00c9E","Nouveau champ de la ":"Nouveau champ de la","\u00cates-vous bien s\u00fbr de vouloir supprimer cette crit\u00e8re?":"\u00cates-vous bien s\u00fbr de vouloir supprimer cette crit\u00e8re?","Modifier champ":"Modifier champ","Ce code existe d\u00e9j\u00e0":"Ce code existe d\u00e9j\u00e0","Il manque un op\u00e9rateur entre ces codes: ":"Il manque un op\u00e9rateur entre ces codes:","Comparateur(s) interdit(s): ":"Comparateur(s) interdit(s):","Comparateurs autoris\u00e9s: ":"Comparateurs autoris\u00e9s:","Vous ne pouvez ins\u00e9rer que des codes correspondants \u00e0 des champs fiscaux de":"Vous ne pouvez ins\u00e9rer que des codes correspondants \u00e0 des champs fiscaux de","Mauvais code(s):":"Mauvais code(s):","Certains des codes ins\u00e9r\u00e9s dans votre formule ne sont pas autoris\u00e9s":"Certains des codes ins\u00e9r\u00e9s dans votre formule ne sont pas autoris\u00e9s","Il y a une erreur dans la formule que vous avez ins\u00e9r\u00e9e":"Il y a une erreur dans la formule que vous avez ins\u00e9r\u00e9e","Une erreur est survenue":"Une erreur est survenue","Vous devez s\u00e9lectionner au moins deux lignes":"Vous devez s\u00e9lectionner au moins deux lignes","Pour les cotisations individuelles, rendez-vous sur la fiche de l'adh\u00e9rent.":"Pour les cotisations individuelles, rendez-vous sur la fiche de l'adh\u00e9rent.","Op\u00e9ration impossible":"Op\u00e9ration impossible","Nouvel appel de cotisation":"Nouvel appel de cotisation","\u00cates-vous s\u00fbr de vouloir g\u00e9n\u00e9rer toutes les":"\u00cates-vous s\u00fbr de vouloir g\u00e9n\u00e9rer toutes les","cotisations?":"cotisations?","Cocher\/D\u00e9cocher tout":"Cocher\/D\u00e9cocher tout","G\u00e9n\u00e9rer les cotisations":"G\u00e9n\u00e9rer les cotisations","Excel":"Excel","Attention! La g\u00e9n\u00e9ration peut prendre plusieurs minutes selon le nombre d'adh\u00e9rents s\u00e9lectionn\u00e9s":"Attention! La g\u00e9n\u00e9ration peut prendre plusieurs minutes selon le nombre d'adh\u00e9rents s\u00e9lectionn\u00e9s","Les cotisations ont bien \u00e9t\u00e9 g\u00e9n\u00e9r\u00e9es.":"Les cotisations ont bien \u00e9t\u00e9 g\u00e9n\u00e9r\u00e9es.","\u00cates-vous s\u00fbr que la configuration est pr\u00eate?":"\u00cates-vous s\u00fbr que la configuration est pr\u00eate?","P\u00c3\u00a9riode de cotisation":"P\u00c3\u00a9riode de cotisation","Bar\u00c3\u00aame":"Bar\u00c3\u00aame","G\u00c3\u00a9n\u00c3\u00a9rer les bar\u00c3\u00aames annuels pour":"G\u00c3\u00a9n\u00c3\u00a9rer les bar\u00c3\u00aames annuels pour","Penality temp":"Penality temp","Select Periode":"Select Periode","T\u00e9l\u00e9charger:":"T\u00e9l\u00e9charger:","CSV":"CSV","ferm\u00e9":"ferm\u00e9","accomptes":"accomptes","Ouvert":"Ouvert","Cocher\/D\u00e9cocher":"Cocher\/D\u00e9cocher","Tous":"Tous","Positifs":"Positifs","N\u00e9gatifs":"N\u00e9gatifs","G\u00e9n\u00e9rer les reajustements":"G\u00e9n\u00e9rer les reajustements","Les r\u00e9ajustements ont bien \u00e9t\u00e9 g\u00e9n\u00e9r\u00e9s.":"Les reajustements ont bien \u00e9t\u00e9 g\u00e9n\u00e9r\u00e9s.","Il y a eu une erreur pendant l'analyse du fichier SAGE, contactez l'assistance":"Il y a eu une erreur pendant l'analyse du fichier SAGE, contactez l'assistance","Legende des listes":"Legende des listes","Page":"Page","Post":"Post","New":"New","Note":"Note","Creator":"Creator","Content":"Contenu","Creation":"Creation","Pub. Start":"Pub. Start","Pub. End":"Pub. End","New Note":"New note","Edit Note":"Edit Note","Publish Note":"Publish Note","Are you sure to remove the publication from this note?":"Are you sure to remove the publication from this note?","Successfully deleted":"Successfully deleted","Error in deleting":"Error in deleting","Are you sure to delete this note?":"Are you sure to delete this note?","Enter a title for the note":"Enter a title for the note","tables updated":"tables updated","table updated":"table updated","No table updated":"No table updated","columns updated":"columns updated","column updated":"column updated","No column updated":"No column updated","keys updated":"keys updated","key updated":"key updated","No key updated":"No key updated","All the objects associated with this database will be also deleted. None of the data will be affected. Are you sure you widh to proceed?":"All the objects associated with this database will be also deleted. None of the data will be affected. Are you sure you widh to proceed?","Database successfully removed from internal data":"Database successfully removed from internal data","All the objects associated with this table will be also deleted. None of the data will be affected. Are you sure you widh to proceed?":"All the objects associated with this table will be also deleted. None of the data will be affected. Are you sure you widh to proceed?","Table successfully removed from internal data":"Table successfully removed from internal data","ciao a tutti belli e brutti":"ciao a tutti belli e brutti","ciao":"ciao","prova ancora ":"prova ancora","e ancora":"e ancora","Modification de la lettre-type":"Modification de la lettre-type","Souhaitez-vous vraiment supprimer cette lettre-type?":"Souhaitez-vous vraiment supprimer cette lettre-type?","Avertissement sur les lettres types":"Avertissement sur les lettres types","Cr\u00e9ation d'une lettre-type":"Cr\u00e9ation d'une lettre-type","Ajouter une lettre type":"Ajouter une lettre type","Are you sure you want to delete this record?":"Are you sure you want to delete this record?","Are you sure you want to delete this group of conditions?":"Are you sure you want to delete this group of conditions?","Choose a value":"Choose a value","Suspendu":"Suspendu","Pr\u00eat":"Pr\u00eat","All":"All","Drafts":"Drafts","Dupliquer":"Dupliquer","Suspendre":"Suspendre","Cr\u00e9ation d'un mailing":"Cr\u00e9ation d'un mailing","Modification d'un mailing":"Modification d'un mailing","\u00cates-vous s\u00fbr de vouloir supprimer cet enregistrement?":"\u00cates-vous s\u00fbr de vouloir supprimer cet enregistrement?","Enregistr\u00e9e":"Enregistr\u00e9e","News":"News","Tools":"Tools","Post name":"Post Name","Modified":"Modified","Do you want to import all the content of this table?":"Do you want to import all the content of this table?","Are you sure you import the posts?":"Are you sure you import the posts?","Import performed":"Import performed","Error Import":"Error Import","Show":"Show","Find":"Find","Font size":"Font size","Container width":"Container width","Text alignment":"Text alignment","State":"State","Copy icon":"Copy icon","Dashboard":"Dashboard","Rechercher par ID, nom, marque, adresse, contact, email, etc...":"Rechercher par ID, nom, marque, adresse, contact, email, etc...","L'entr\u00e9e a \u00e9t\u00e9 ":"L'entr\u00e9e a \u00e9t\u00e9","rajout\u00e9e":"rajout\u00e9e","modifi\u00e9e":"modifi\u00e9e","supprim\u00e9e":"supprim\u00e9e","restaur\u00e9e":"restaur\u00e9e"," par ":"par","Seen":"Seen","Cr\u00e9ation d'un bar\u00eame":"Cr\u00e9ation d'un bar\u00eame","Modification d'un bar\u00eame":"Modification d'un bar\u00eame","\u00cates-vous bien s\u00fbr de vouloir supprimer cette bar\u00eame?":"\u00cates-vous bien s\u00fbr de vouloir supprimer cette bar\u00eame?","Modification d'un crit\u00e8re":"Modification d'un crit\u00e8re","Cr\u00e9ation d'un crit\u00e8re":"Cr\u00e9ation d'un crit\u00e8re","Configuration des documents":"Configuration des documents","Document type correctly updated":"Document type correctly updated","Document type correctly inserted":"Document type correctly inserted","Something went wrong while inserting the new document type":"Something went wrong while inserting the new document type","Something went wrong while updatind the document type":"Something went wrong while updatind the document type","Demande transmise":"Demande transmise","Succ\u00e8ss":"Success","(Un)Select all":"(Un)Select all","Close all":"Close all","Close others":"Close others","Pin":"Pin","Unpin":"Unpin","Forme":"Forme","Unknown":"Unknown","Open task":"Ouvrir la t\u00e2che","Year":"Ann\u00e9e","No file selected":"Aucun fichier s\u00e9lectionn\u00e9","The name or the folder name for this library is missing":"Le nom ou le nom de dossier pour cette librairie est manquant","Success!":"Succ\u00e8s!","A problem has occurred":"Un probl\u00e8me est survenu","Are you sure you want to continue?":"\u00cates-vous s\u00fbr de vouloir continuer?","The version's ID is missing":"L'ID de la version est manquant","The library's name is missing":"Le nom de la librairie est manquant","Dependencies already inserted":"Les d\u00e9pendances ont d\u00e9j\u00e0 \u00e9t\u00e9 ins\u00e9r\u00e9es","The order should be a number":"L'ordre devrait \u00eatre un nombre","Add language file":"Ajouter un fichier de langue","Add theme":"Ajouter un th\u00e8me","Prepend the theme files":"Ajouter les fichiers de theme avant","Dependencies":"","Update":"Mettre \u00e0 jour","Info":"Info","Add version to this library":"","List versions from repository":"","Error while deleting":"Erreur pendant la suppression","cancel":"Annuler","Library deleted":"","Version deleted":"","Error while deleting library":"","Error while deleting version":"","Do you really want delete the library":"","Do you really want to delete the version":"","skip":"","import":"Importation","Import library from Github":"","No release found":"","The repository's URL is empty":"","Add library":"","Get info from package.json":"","new":"Nouveau","Dependencies library":"","No dependencies found":"","New version for ":"","GitHub link":"","libraries":"","Script package.json":"","Info version ":"","Edit the version of the":"","library":"","Remove version in library":"","The following version already exists":"","Scripts":"","No Script":"","ID":"ID","Date added":"","Remove library":""}}
+{
+    "components\/adherent": {
+        "Administrateur": "Administrateur",
+        "Spectateur": "Spectateur",
+        "Voulez-vous r\u00e9initialiser le mot de passe?": "Voulez-vous r\u00e9initialiser le mot de passe?",
+        "Voulez-vous r\u00e9parer le profil (WordPress)?": "Voulez-vous r\u00e9parer le profil (WordPress)?",
+        "Cache de l'adh\u00e9rent mis \u00e0 jour": "Cache de l'adh\u00e9rent mis \u00e0 jour",
+        "Cet adh\u00e9rent a \u00e9t\u00e9 modifi\u00e9, voulez-vous le recharger?": "Cet adh\u00e9rent a \u00e9t\u00e9 modifi\u00e9, voulez-vous le recharger?"
+    },
+    "components\/adherent\/tab\/changes": {
+        "Actionnaires": "Actionnaires",
+        "Exempt\u00e9 de formation": "Exempt\u00e9 de formation",
+        "Formation Gestion": "Formation Gestion",
+        "Formation TVA": "Formation TVA",
+        "Adh\u00e9rent EdV": "Adh\u00e9rent EdV",
+        "Entit\u00e9 juridique": "Entit\u00e9 juridique",
+        "Adresse de courrier": "Adresse de courrier",
+        "Repr\u00e9sentant": "Repr\u00e9sentant",
+        "Information financi\u00e8re": "Information financi\u00e8re",
+        "Marque": "Marque",
+        "Succursale": "Succursale",
+        "Formation": "Formation",
+        "Dates de cl\u00f4ture": "Dates de cl\u00f4ture",
+        "Information Compl\u00e9mentaire": "Information Compl\u00e9mentaire",
+        "Adresse email principale": "Adresse eMail principale",
+        "Adresse email publique": "Adresse eMail publique",
+        "Fin du prochain exercice": "Fin du prochain exercice",
+        "E-mail": "E-mail",
+        "Acc\u00e8s espace adh\u00e8rents": "Acc\u00e8s espace adh\u00e9rents",
+        "Insertion": "Insertion",
+        "\u00c9limination": "\u00c9limination",
+        "\u00cates-vous s\u00fbr de vouloir supprimer cette demande?": "\u00cates-vous s\u00fbr de vouloir supprimer cette demande?",
+        "V\u00e9rifier e-mail": "V\u00e9rifier e-mail",
+        "Accept\u00e9": "Accept\u00e9",
+        "Refus\u00e9": "Refus\u00e9",
+        "Accepter": "Accepter",
+        "Refuser": "Refuser",
+        "Mettre en attente de validation par le bureau": "Mettre en attente de validation par le bureau",
+        "Cette modification ne sera plus dans la liste des modifications pr\u00eates, et il vous faudra l'accepter au prochain bureau pour qu'elle devienne effective. \u00cates-vous s\u00fbr que c'est ce que vous voulez faire?": "Cette modification ne sera plus dans la liste des modifications pr\u00eates, et il vous faudra l'accepter au prochain bureau pour qu'elle devienne effective. \u00cates-vous s\u00fbr que c'est ce que vous voulez faire?",
+        "Voulez-vous importer les documents envoy\u00e9s?": "Voulez-vous importer les documents envoy\u00e9s?",
+        "Importation de documents": "Importation de documents"
+    },
+    "mvc\/lieux": {
+        "Historique": "Historique",
+        "Supprimer": "Supprimer",
+        "Deleted": "Deleted",
+        "Maps": "Maps",
+        "Fusion des lieux": "Fusion des lieux",
+        "Plan": "Plan"
+    },
+    "mvc\/tiers": {
+        "Historique": "Historique",
+        "Supprimer": "Supprimer",
+        "Fusion des tiers": "Fusion des tiers",
+        "Deleted": "Deleted"
+    },
+    "components\/adherent\/changes": {
+        "Les propri\u00e9t\u00e9s \u00e9crites de cette couleur ont \u00e9t\u00e9 modifi\u00e9es par l'adh\u00e9rent et ce changement doit encore etre approuv\u00e9": "Les propri\u00e9t\u00e9s \u00e9crites de cette couleur ont \u00e9t\u00e9 modifi\u00e9es par l'adh\u00e9rent et ce changement doit encore etre approuv\u00e9"
+    },
+    "mvc\/bureaux": {
+        "Un probl\u00e8me est survenu": "Un probl\u00e8me est survenu",
+        "Fin": "Fin",
+        "Modification": "Modification",
+        "Deleted": "Deleted",
+        "Titre": "Titre",
+        "Debut": "Debut",
+        "Nouveau Bureau": "Nouveau Bureau",
+        "\u00cates-vous s\u00fbr de vouloir effacer cet \u00e9v\u00e8nement?": "\u00cates-vous s\u00fbr de vouloir effacer cet \u00e9v\u00e8nement?"
+    },
+    "mvc\/comptes_non_saisis": {
+        "Un probl\u00e8me est survenu": "Un probl\u00e8me est survenu",
+        "\u00cates-vous s\u00fbr de vouloir envoyer ce document \u00e0 Infol\u00e9gale pour traitement?": "\u00cates-vous s\u00fbr de vouloir envoyer ce document \u00e0 Infol\u00e9gale pour traitement?",
+        "Pas de RCS": "Pas de RCS",
+        "Envoyer": "Envoyer",
+        "Aucune ligne s\u00e9lectionn\u00e9e": "Aucune ligne s\u00e9lectionn\u00e9e",
+        "\u00cates-vous s\u00fbr de vouloir envoyer toutes les liasses s\u00e9lectionn\u00e9es \u00e0 Infol\u00e9gale?": "\u00cates-vous s\u00fbr de vouloir envoyer toutes les liasses s\u00e9lectionn\u00e9es \u00e0 Infol\u00e9gale?",
+        "Toutes les liasses seront envoy\u00e9es dans les prochaines minutes": "Toutes les liasses seront envoy\u00e9es dans les prochaines minutes",
+        "\u00cates-vous s\u00fbr de vouloir envoyer toutes les liasses avec des fichiers et sans \u00e9critures \u00e0 Infol\u00e9gale?": "\u00cates-vous s\u00fbr de vouloir envoyer toutes les liasses avec des fichiers et sans \u00e9critures \u00e0 Infol\u00e9gale?",
+        "Toutes les liasses commenceront \u00e0 \u00eatre envoy\u00e9es dans les prochaines secondes": "Toutes les liasses commenceront \u00e0 \u00eatre envoy\u00e9es dans les prochaines secondes",
+        "Pas de fichiers": "Pas de fichiers"
+    },
+    "mvc\/conseils_administration": {
+        "Un probl\u00e8me est survenu": "Un probl\u00e8me est survenu",
+        "Fin": "Fin",
+        "Modification": "Modification",
+        "Deleted": "Deleted",
+        "Titre": "Titre",
+        "Debut": "Debut",
+        "\u00cates-vous s\u00fbr de vouloir effacer cet \u00e9v\u00e8nement?": "\u00cates-vous s\u00fbr de vouloir effacer cet \u00e9v\u00e8nement?",
+        "Nouveau conseil d\u2019administration": "Nouveau conseil d\u2019administration"
+    },
+    "mvc\/cp_villes": {
+        "Un probl\u00e8me est survenu": "Un probl\u00e8me est survenu",
+        "Edit": "Edit",
+        "Deleted": "Deleted",
+        "Delete": "Delete",
+        "Nouvelles coordonn\u00e9es": "Nouvelles coordonn\u00e9es",
+        "Map": "Map",
+        "Modifier coordonn\u00e9es": "Modifier coordonn\u00e9es",
+        "\u00cates-vous bien s\u00fbr de vouloir supprimer?": "\u00cates-vous bien s\u00fbr de vouloir supprimer?",
+        "Maps": "Maps"
+    },
+    "mvc\/nouveau": {
+        "Un probl\u00e8me est survenu": "Un probl\u00e8me est survenu",
+        "Cet adh\u00e9rent existe d\u00e9j\u00e0": "Cet adh\u00e9rent existe d\u00e9j\u00e0",
+        "Adh\u00e9rent existant!": "Adh\u00e9rent existant!",
+        "Entit\u00e9 d\u00e9j\u00e0 existante?": "Entit\u00e9 d\u00e9j\u00e0 existante?",
+        "Non disponible": "Non disponible",
+        "Nouvelle entit\u00e9": "Nouvelle entit\u00e9",
+        "impossible de r\u00e9cup\u00e9rer les informations de cette entit\u00e9!": "impossible de r\u00e9cup\u00e9rer les informations de cette entit\u00e9!",
+        "Le num\u00e9ro rcs entr\u00e9 exist d\u00e9j\u00e0": "Le num\u00e9ro rcs entr\u00e9 exist d\u00e9j\u00e0",
+        "Erreur pendant le processus de cr\u00e9ation :(": "Erreur pendant le processus de cr\u00e9ation :("
+    },
+    "mvc\/admin\/champs_fiscaux": {
+        "Un probl\u00e8me est survenu": "Un probl\u00e8me est survenu",
+        "Modification r\u00e9ussie": "Modification r\u00e9ussie",
+        "Ce champ est obligatoire": "Ce champ est obligatoire",
+        "Ordre horizontal": "Ordre horizontal",
+        "Ordre vertical": "Ordre vertical",
+        "Code fiche simplifi\u00e9": "Code fiche simplifi\u00e9",
+        "Unit\u00e9": "Unit\u00e9",
+        "Euros": "Euros",
+        "Pourcentage": "Pourcentage",
+        "Salari\u00e9s": "Salari\u00e9s",
+        "Dur\u00e9e en mois": "Dur\u00e9e en mois",
+        "Mois de l'ann\u00e9e": "Mois de l'ann\u00e9e",
+        "Bool\u00e9en": "Bool\u00e9en",
+        "Pr\u00e9sent dans la fiche financi\u00e8re simplifi\u00e9e": "Pr\u00e9sent dans la fiche financi\u00e8re simplifi\u00e9e",
+        "Pr\u00e9sent dans la fiche financi\u00e8re d\u00e9taill\u00e9e": "Pr\u00e9sent dans la fiche financi\u00e8re d\u00e9taill\u00e9e",
+        "Confirmation si valeur nulle": "Confirmation si valeur nulle",
+        "Code alternatif": "Code alternatif",
+        "Num\u00e9ro de page si applicable": "Num\u00e9ro de page si applicable",
+        "Nouveau champ": "Nouveau champ",
+        "Voir les champs de:": "Voir les champs de:",
+        "Nouveau champ de la ": "Nouveau champ de la",
+        "Modifier champ": "Modifier champ",
+        "Ce code existe d\u00e9j\u00e0": "Ce code existe d\u00e9j\u00e0",
+        "Il manque un op\u00e9rateur entre ces codes: ": "Il manque un op\u00e9rateur entre ces codes:",
+        "Comparateur(s) interdit(s): ": "Comparateur(s) interdit(s):",
+        "Comparateurs autoris\u00e9s: ": "Comparateurs autoris\u00e9s:",
+        "Vous ne pouvez ins\u00e9rer que des codes correspondants \u00e0 des champs fiscaux de": "Vous ne pouvez ins\u00e9rer que des codes correspondants \u00e0 des champs fiscaux de",
+        "Mauvais code(s):": "Mauvais code(s):",
+        "Certains des codes ins\u00e9r\u00e9s dans votre formule ne sont pas autoris\u00e9s": "Certains des codes ins\u00e9r\u00e9s dans votre formule ne sont pas autoris\u00e9s",
+        "Il y a une erreur dans la formule que vous avez ins\u00e9r\u00e9e": "Il y a une erreur dans la formule que vous avez ins\u00e9r\u00e9e",
+        "Une erreur est survenue": "Une erreur est survenue"
+    },
+    "mvc\/cotisations\/a_venir": {
+        "Un probl\u00e8me est survenu": "Un probl\u00e8me est survenu",
+        "Date de l'appel": "Date de l'appel",
+        "Envoyer par eMail": "Envoyer par eMail",
+        "Annuler": "Annuler",
+        "Ann\u00e9e": "ANN\u00c9E",
+        "G\u00e9n\u00e9rer": "G\u00e9n\u00e9rer",
+        "Aucune ligne s\u00e9lectionn\u00e9e": "Aucune ligne s\u00e9lectionn\u00e9e",
+        "Vous devez s\u00e9lectionner au moins deux lignes": "Vous devez s\u00e9lectionner au moins deux lignes",
+        "Pour les cotisations individuelles, rendez-vous sur la fiche de l'adh\u00e9rent.": "Pour les cotisations individuelles, rendez-vous sur la fiche de l'adh\u00e9rent.",
+        "Op\u00e9ration impossible": "Op\u00e9ration impossible",
+        "Nouvel appel de cotisation": "Nouvel appel de cotisation",
+        "\u00cates-vous s\u00fbr de vouloir g\u00e9n\u00e9rer toutes les": "\u00cates-vous s\u00fbr de vouloir g\u00e9n\u00e9rer toutes les",
+        "cotisations?": "cotisations?",
+        "Cocher\/D\u00e9cocher tout": "Cocher\/D\u00e9cocher tout",
+        "G\u00e9n\u00e9rer les cotisations": "G\u00e9n\u00e9rer les cotisations",
+        "Excel": "Excel",
+        "Attention! La g\u00e9n\u00e9ration peut prendre plusieurs minutes selon le nombre d'adh\u00e9rents s\u00e9lectionn\u00e9s": "Attention! La g\u00e9n\u00e9ration peut prendre plusieurs minutes selon le nombre d'adh\u00e9rents s\u00e9lectionn\u00e9s",
+        "Les cotisations ont bien \u00e9t\u00e9 g\u00e9n\u00e9r\u00e9es.": "Les cotisations ont bien \u00e9t\u00e9 g\u00e9n\u00e9r\u00e9es."
+    },
+    "mvc\/cotisations\/reajustements": {
+        "Un probl\u00e8me est survenu": "Un probl\u00e8me est survenu",
+        "Aucune ligne s\u00e9lectionn\u00e9e": "Aucune ligne s\u00e9lectionn\u00e9e",
+        "Vous devez s\u00e9lectionner au moins deux lignes": "Vous devez s\u00e9lectionner au moins deux lignes",
+        "Pour les cotisations individuelles, rendez-vous sur la fiche de l'adh\u00e9rent.": "Pour les cotisations individuelles, rendez-vous sur la fiche de l'adh\u00e9rent.",
+        "Op\u00e9ration impossible": "Op\u00e9ration impossible",
+        "Nouvel appel de cotisation": "Nouvel appel de cotisation",
+        "Excel": "Excel",
+        "Cocher\/D\u00e9cocher": "Cocher\/D\u00e9cocher",
+        "Tous": "Tous",
+        "Positifs": "Positifs",
+        "N\u00e9gatifs": "N\u00e9gatifs",
+        "G\u00e9n\u00e9rer les reajustements": "G\u00e9n\u00e9rer les reajustements",
+        "Les r\u00e9ajustements ont bien \u00e9t\u00e9 g\u00e9n\u00e9r\u00e9s.": "Les reajustements ont bien \u00e9t\u00e9 g\u00e9n\u00e9r\u00e9s."
+    },
+    "mvc\/management\/demandes": {
+        "Un probl\u00e8me est survenu": "Un probl\u00e8me est survenu"
+    },
+    "mvc\/test\/old\/com\/mailings": {
+        "Un probl\u00e8me est survenu": "Un probl\u00e8me est survenu",
+        "Modification r\u00e9ussie": "Modification r\u00e9ussie",
+        "Supprimer": "Supprimer",
+        "Voir": "Voir",
+        "Modifier": "Modifier",
+        "Envoi": "Envoi",
+        "Suspendu": "Suspendu",
+        "Pr\u00eat": "Pr\u00eat",
+        "All": "All",
+        "Drafts": "Drafts",
+        "Dupliquer": "Dupliquer",
+        "Suspendre": "Suspendre",
+        "Cr\u00e9ation d'un mailing": "Cr\u00e9ation d'un mailing",
+        "Modification d'un mailing": "Modification d'un mailing",
+        "\u00cates-vous s\u00fbr de vouloir supprimer cet enregistrement?": "\u00cates-vous s\u00fbr de vouloir supprimer cet enregistrement?",
+        "Enregistr\u00e9e": "Enregistr\u00e9e"
+    },
+    "mvc\/test\/old\/com\/news": {
+        "Un probl\u00e8me est survenu": "Un probl\u00e8me est survenu",
+        "Modification r\u00e9ussie": "Modification r\u00e9ussie",
+        "News": "News"
+    },
+    "mvc\/adherent\/pad_refus": {
+        "Modification r\u00e9ussie": "Modification r\u00e9ussie"
+    },
+    "components\/adherent\/form\/actionnaire": {
+        "D\u00e9finition d'un contact": "D\u00e9finition d'un contact"
+    },
+    "components\/adherent\/form\/cgar": {
+        "D\u00e9finition d'un contact": "D\u00e9finition d'un contact",
+        "D\u00e9finition d'une adresse": "D\u00e9finition d'une adresse"
+    },
+    "components\/adherent\/form\/tiers_select": {
+        "D\u00e9finition d'un contact": "D\u00e9finition d'un contact"
+    },
+    "components\/adherent\/tab\/contacts": {
+        "D\u00e9finition d'un contact": "D\u00e9finition d'un contact",
+        "Ins\u00e9rer": "Ins\u00e9rer",
+        "R\u00e9parer le profil (WordPress)": "R\u00e9parer le profil (WordPress)",
+        "Contact principal": "Contact principal",
+        "\u00cates-vous bien s\u00fbr de vouloir supprimer ce contact?": "\u00cates-vous bien s\u00fbr de vouloir supprimer ce contact?",
+        "Supprim\u00e9 functions": "Supprim\u00e9 functions"
+    },
+    "components\/adherent\/widget\/contact": {
+        "D\u00e9finition d'un contact": "D\u00e9finition d'un contact",
+        "Ajouter un tuteur": "Ajouter un tuteur",
+        "Ajouter un repr\u00e9sentant": "Ajouter un repr\u00e9sentant",
+        "Changer l'adresse de courrier": "Changer l'adresse de courrier",
+        "Changer l'adresse du si\u00e8ge social": "Changer l'adresse du si\u00e8ge social",
+        "\u00cates-vous bien s\u00fbr de vouloir supprimer ce courrier?": "\u00cates-vous bien s\u00fbr de vouloir supprimer ce courrier?",
+        "\u00cates-vous bien s\u00fbr de vouloir supprimer ce repr\u00e9sentant?": "\u00cates-vous bien s\u00fbr de vouloir supprimer ce repr\u00e9sentant?"
+    },
+    "components\/adherent\/form\/lieux_select": {
+        "D\u00e9finition d'une adresse": "D\u00e9finition d'une adresse"
+    },
+    "components\/adherent\/form\/succursale": {
+        "D\u00e9finition d'une adresse": "D\u00e9finition d'une adresse",
+        "La date de radiation ne peut \u00eatre ant\u00e9rieure \u00e0 la date d'adh\u00e9sion": "La date de radiation ne peut \u00eatre ant\u00e9rieure \u00e0 la date d'adh\u00e9sion"
+    },
+    "components\/adherent\/form\/changes\/import": {
+        "Date r\u00e9f\u00e9rence": "Date r\u00e9f\u00e9rence",
+        "La date de fin ne peut ^etre antrieure ": "La date de fin ne peut ^etre antrieure",
+        "La date de r\u00e9f\u00e9rence (celle \u00e0 laquelle se r\u00e9f\u00e8re le document) ne peut \u00eatre post\u00e9rieure \u00e0 la date du document": "La date de r\u00e9f\u00e9rence (celle \u00e0 laquelle se r\u00e9f\u00e8re le document) ne peut \u00eatre post\u00e9rieure \u00e0 la date du document"
+    },
+    "components\/adherent\/form\/pad": {
+        "La date de fin ne peut ^etre antrieure ": "La date de fin ne peut ^etre antrieure",
+        "La date de r\u00e9f\u00e9rence (celle \u00e0 laquelle se r\u00e9f\u00e8re le document) ne peut \u00eatre post\u00e9rieure \u00e0 la date du document": "La date de r\u00e9f\u00e9rence (celle \u00e0 laquelle se r\u00e9f\u00e8re le document) ne peut \u00eatre post\u00e9rieure \u00e0 la date du document",
+        "Modifier le type d'un document peut \u00eatre dangereux si le document \u00e9tait ou devient une liasse ou une DVA, car les \u00e9critures ne seront pas prises en compte.": "Modifier le type d'un document peut \u00eatre dangereux si le document \u00e9tait ou devient une liasse ou une DVA, car les \u00e9critures ne seront pas prises en compte.",
+        "Dans ce cas, il vaut mieux supprimer le document et en cr\u00e9er un nouveau.": "Dans ce cas, il vaut mieux supprimer le document et en cr\u00e9er un nouveau.",
+        "\u00cates-vous s\u00fbr de vouloir modifier le type du document?": "\u00cates-vous s\u00fbr de vouloir modifier le type du document?",
+        "Modifier la cl\u00f4ture d'un document peut \u00eatre dangereux car les \u00e9critures peuvent d\u00e9j\u00e0 avoir \u00e9t\u00e9 prises en compte.": "Modifier la cl\u00f4ture d'un document peut \u00eatre dangereux car les \u00e9critures peuvent d\u00e9j\u00e0 avoir \u00e9t\u00e9 prises en compte.",
+        "\u00cates-vous s\u00fbr de vouloir modifier la cl\u00f4ture du document?": "\u00cates-vous s\u00fbr de vouloir modifier la cl\u00f4ture du document?",
+        "Visualisation du fichier EDI": "Visualisation du fichier EDI",
+        "Tous les documents de ce type ont d\u00e9ja \u00e9t\u00e9 ajout\u00e9s.": "Tous les documents de ce type ont d\u00e9ja \u00e9t\u00e9 ajout\u00e9s.",
+        "Si vous souhaitez remplacer un document existant, supprimez-le d'abord ou bien modifiez-le.": "Si vous souhaitez remplacer un document existant, supprimez-le d'abord ou bien modifiez-le.",
+        "Si vous pensez que vous devriez pouvoir ajouter ce document, contactez le support afin d'en parler et le cas \u00e9ch\u00e9ant modifier l'algorithme.": "Si vous pensez que vous devriez pouvoir ajouter ce document, contactez le support afin d'en parler et le cas \u00e9ch\u00e9ant modifier l'algorithme."
+    },
+    "components\/adherent\/form\/clotures": {
+        "Impossible de supprimer cette cl\u00f4ture si elle est la": "Impossible de supprimer cette cl\u00f4ture si elle est la",
+        "ou la": "ou la",
+        "Prochaine date de cl\u00f4ture": "Prochaine date de cl\u00f4ture",
+        "Vous devez modifier ces valeurs avant de pouvoir la supprimer.": "Vous devez modifier ces valeurs avant de pouvoir la supprimer.",
+        "\u00cates-vous s\u00fbr de vouloir supprimer cette date de cl\u00f4ture?": "\u00cates-vous s\u00fbr de vouloir supprimer cette date de cl\u00f4ture?",
+        "Ajouter une date de cl\u00f4ture": "Ajouter une date de cl\u00f4ture",
+        "\u00cates-vous s\u00fbr de vouloir ajouter cette nouvelle date de cl\u00f4ture?": "\u00cates-vous s\u00fbr de vouloir ajouter cette nouvelle date de cl\u00f4ture?"
+    },
+    "components\/adherent\/form\/contact": {
+        "Please insert a valid phone number": "Please insert a valid phone number"
+    },
+    "components\/adherent\/form\/contacts_fusion": {
+        " adh\u00e9rents suivants:": "adh\u00e9rents suivants:",
+        "Voulez-vous que la fusion soit globale donc aussi effective aussi pour ces adh\u00e9rents?": "Voulez-vous que la fusion soit globale donc aussi effective aussi pour ces adh\u00e9rents?",
+        "(Si vous pensez que ces personnes\/adresses sont r\u00e9ellement les m\u00eames vous devriez les fusionner globalement)": "(Si vous pensez que ces personnes\/adresses sont r\u00e9ellement les m\u00eames vous devriez les fusionner globalement)"
+    },
+    "components\/adherent\/form\/cotisation": {
+        "Cotisation \u00e9mise!": "Cotisation \u00e9mise!",
+        "Quelque chose n'a pas fonctionn\u00e9": "Quelque chose n'a pas fonctionn\u00e9"
+    },
+    "components\/adherent\/widget\/pad": {
+        "Quelque chose n'a pas fonctionn\u00e9": "Quelque chose n'a pas fonctionn\u00e9",
+        "\u00cates-vous bien s\u00fbr de vouloir supprimer cette demande?": "\u00cates-vous bien s\u00fbr de vouloir supprimer cette demande?",
+        "demande supprim\u00e9e": "demande supprim\u00e9e"
+    },
+    "components\/listes\/adherents": {
+        "Quelque chose n'a pas fonctionn\u00e9": "Quelque chose n'a pas fonctionn\u00e9",
+        "Save as widget": "Save as widget",
+        "Save as mailing list": "Save as mailing list",
+        "Liste de diffusion enregistr\u00e9e": "Liste de diffusion enregistr\u00e9e",
+        "Sauver sous Excel": "Sauver sous Excel",
+        "Sauver en tant que widget": "Sauver en tant que widget",
+        "Sauver en tant que Mailing list": "Sauver en tant que Mailing list"
+    },
+    "components\/listes\/form_mailing": {
+        "Quelque chose n'a pas fonctionn\u00e9": "Quelque chose n'a pas fonctionn\u00e9",
+        "Liste de diffusion enregistr\u00e9e": "Liste de diffusion enregistr\u00e9e"
+    },
+    "components\/listes\/widget_element": {
+        "Quelque chose n'a pas fonctionn\u00e9": "Quelque chose n'a pas fonctionn\u00e9",
+        "Utilisateurs": "Utilisateurs",
+        "Save as widget": "Save as widget",
+        "Are you sure you want to delete this list?": "Are you sure you want to delete this list?",
+        "Liste supprim\u00e9e": "Liste supprim\u00e9e",
+        "Reprivatiser": "Reprivatiser",
+        "Liste privatis\u00e9e": "Liste privatis\u00e9e",
+        "Ne plus partager du tout": "Ne plus partager du tout",
+        "Rendre public": "Rendre public",
+        "Liste publique": "Liste publique",
+        "Ne plus partager avec mon groupe": "Ne plus partager avec mon groupe",
+        "Success": "Success",
+        "Partager avec mon groupe": "Partager avec mon groupe",
+        "Liste partag\u00e9e avec le groupe ": "Liste partag\u00e9e avec le groupe",
+        "Partager avec un groupe": "Partager avec un groupe",
+        "Partager avec un utilisateur": "Partager avec un utilisateur"
+    },
+    "components\/adherent\/form\/cotisations": {
+        "DVA": "DVA",
+        "Voulez-vous que cette modification soit imm\u00e9diatement valid\u00e9e?": "Voulez-vous que cette modification soit imm\u00e9diatement valid\u00e9e?"
+    },
+    "components\/adherent\/widget\/cotisations": {
+        "DVA": "DVA",
+        "Email envoy\u00e9": "Email envoy\u00e9",
+        "Calcul de la cotisation": "Calcul de la cotisation",
+        "Cotisation": "Cotisation",
+        "\u00cates-vous s\u00fbr de vouloir l'envoyer par email?": "\u00cates-vous s\u00fbr de vouloir l'envoyer par email?",
+        "pr\u00e9visionnelle": "pr\u00e9visionnelle",
+        "Modification des informations pour la cotisation": "Modification des informations pour la cotisation",
+        "R\u00e9ajustement de cotisation pour": "R\u00e9ajustement de cotisation pour",
+        "Appel initial de cotisation pour": "Appel initial de cotisation pour",
+        "Impossible de proc\u00e9der au calcul ou de retrouver la cotisaiton demand\u00e9e": "Impossible de proc\u00e9der au calcul ou de retrouver la cotisaiton demand\u00e9e",
+        "Bar\u00eame par d\u00e9faut modifi\u00e9<br>Il sera appliqu\u00e9 \u00e0 la prochaine g\u00e9n\u00e9ration de bar\u00eame automatis\u00e9e.": "Bar\u00eame par d\u00e9faut modifi\u00e9<br>Il sera appliqu\u00e9 \u00e0 la prochaine g\u00e9n\u00e9ration de bar\u00eame automatis\u00e9e."
+    },
+    "mvc\/cotisations\/validations": {
+        "Coefficient": "Coefficient",
+        "P\u00e9nalit\u00e9": "P\u00e9nalit\u00e9",
+        "Enregistr\u00e8e": "Enregistr\u00e9e",
+        "\u00cates-vous s\u00fbr de vouloir valider cette modification?": "\u00cates-vous s\u00fbr de vouloir valider cette modification?",
+        "Quelque chose n'a pas fonctionn\u00e9...": "Quelque chose n'a pas fonctionn\u00e9...",
+        "\u00cates-vous s\u00fbr de vouloir annuler cette modification?": "\u00cates-vous s\u00fbr de vouloir annuler cette modification?"
+    },
+    "components\/adherent\/form\/justificatif": {
+        "Veuillez rentrer une date avant de choisir un masque afin que celui-ci puisse \u00eatre dat\u00e9": "Veuillez rentrer une date avant de choisir un masque afin que celui-ci puisse \u00eatre dat\u00e9"
+    },
+    "mvc\/dva_non_traitees": {
+        "PDF": "PDF",
+        "La modification n'a pas \u00e9t\u00e9 prise en compte car elle ne colle pas avec la v\u00e9rification suivante": "La modification n'a pas \u00e9t\u00e9 prise en compte car elle ne colle pas avec la v\u00e9rification suivante",
+        "Sauvegarder et appliquer les calculs": "Sauvegarder et appliquer les calculs",
+        "Les \u00e9critures ont bien \u00e9t\u00e9 modifi\u00e9es et les ratios et la note ont \u00e9t\u00e9 mis \u00e0 jour": "Les \u00e9critures ont bien \u00e9t\u00e9 modifi\u00e9es et les ratios et la note ont \u00e9t\u00e9 mis \u00e0 jour",
+        "Annuler les modifications": "Annuler les modifications",
+        "EDI": "EDI",
+        "Modification prise en compte": "Modification prise en compte",
+        "Il y a eu un probl\u00e8me dans la modification": "Il y a eu un probl\u00e8me dans la modification",
+        "Visualisation d'un compte": "Visualisation d'un compte"
+    },
+    "components\/adherent\/form\/lettre": {
+        "Date obligatoire": "Date obligatoire"
+    },
+    "components\/adherent\/popup\/document": {
+        "\u00cates-vous s\u00fbr de vouloir d\u00e9clarer cette DVA comme nulle? Si des valeurs sont renseign\u00e9es elles seront toutes mises \u00e0 z\u00e9ro.": "\u00cates-vous s\u00fbr de vouloir d\u00e9clarer cette DVA comme nulle? Si des valeurs sont renseign\u00e9es elles seront toutes mises \u00e0 z\u00e9ro."
+    },
+    "components\/adherent\/tab\/actionnaires": {
+        "Nouveau Actionnaire": "Nouveau Actionnaire",
+        "Modifier Actionnaire": "Modifier Actionnaire",
+        "\u00cates-vous bien s\u00fbr de vouloir supprimer ce actionnaire?": "\u00cates-vous bien s\u00fbr de vouloir supprimer ce actionnaire?"
+    },
+    "components\/adherent\/tab\/adresses": {
+        "Modifier lieu": "Modifier lieu"
+    },
+    "components\/adherent\/tab\/attestations": {
+        "Nouvelle attestation": "Nouvelle attestation",
+        "\u00cates-vous bien s\u00fbr de vouloir supprimer cette attestation?": "\u00cates-vous bien s\u00fbr de vouloir supprimer cette attestation?"
+    },
+    "components\/adherent\/tab\/infos": {
+        "Nouvelle attestation": "Nouvelle attestation",
+        "Tutorat": "Tutorat",
+        "Modification des informations de formation": "Modification des informations de formation",
+        "Nouveau justificatif": "Nouveau justificatif",
+        "Calcul de la note": "Calcul de la note",
+        "Modification des informations sur la soci\u00e9t\u00e9": "Modification des informations sur la soci\u00e9t\u00e9",
+        "Modification des informations financi\u00e8res": "Modification des informations financi\u00e8res",
+        "Informations compl\u00e9mentaires": "Informations compl\u00e9mentaires",
+        "Modification des dates de cl\u00f4ture": "Modification des dates de cl\u00f4ture",
+        "Nouvelle demande de document": "Nouvelle demande de document",
+        "Configuration de la fiche adh\u00e9rent PDF": "Configuration de la fiche adh\u00e9rent PDF",
+        "Nouveau courrier": "Nouveau courrier",
+        "Gestion du Sigle": "Gestion du Sigle",
+        "Clear cache": "Clear cache",
+        "Demande de justificatif": "Demande de justificatif",
+        "Demande d'attestation": "Demande d'attestation",
+        "Demande de attestation": "Demande de attestation"
+    },
+    "components\/adherent\/tab\/cgar": {
+        "Total": "Total",
+        "Fin: ": "Fin:",
+        "Date d'\u00e9valuation: ": "Date d'\u00e9valuation:",
+        "Taxe fonci\u00e8re: ": "Taxe fonci\u00e8re:",
+        "Adresse: ": "Adresse:",
+        "Nouveau Contre-garant": "Nouveau Contre-garant",
+        "Modifier Contre-garant": "Modifier Contre-garant",
+        "\u00cates-vous s\u00fbr de vouloir supprimer cet \u00e9l\u00e9ment?": "\u00cates-vous s\u00fbr de vouloir supprimer cet \u00e9l\u00e9ment?",
+        "Ajouter un Contre-garant": "Ajouter un Contre-garant"
+    },
+    "mvc\/changes": {
+        "Pas pr\u00eat": "Pas pr\u00eat",
+        "En attente de traitement": "En attente de traitement",
+        "Attente validation bureau": "Attente validation bureau",
+        "L'adh\u00e9rent n'a pas termin\u00e9 le t\u00e9l\u00e9chargement des documents requis": "L'adh\u00e9rent n'a pas termin\u00e9 le t\u00e9l\u00e9chargement des documents requis",
+        "L'adresse email n'a pas encore \u00e9t\u00e9 valid\u00e9e par l'adh\u00e9rent": "L'adresse email n'a pas encore \u00e9t\u00e9 valid\u00e9e par l'adh\u00e9rent",
+        "Email en attente de validation": "Email en attente de validation",
+        "La modification propos\u00e9e par l'adh\u00e9rent est pr\u00eate \u00e0 \u00eatre trait\u00e9e": "La modification propos\u00e9e par l'adh\u00e9rent est pr\u00eate \u00e0 \u00eatre trait\u00e9e"
+    },
+    "components\/adherent\/tab\/pad": {
+        "Accepter": "Accepter",
+        "Refuser": "Refuser",
+        "Refus de document": "Refus de document",
+        "\u00cates-vous sur de vouloir accepter ce document?": "\u00cates-vous sur de vouloir accepter ce document?",
+        "Les documents ont bien \u00e9t\u00e9 trait\u00e9s.": "Les documents ont bien \u00e9t\u00e9 trait\u00e9s.",
+        "Voulez-vous que l'utilisateur re&ccedil;oive un email l'en informant?": "Voulez-vous que l'utilisateur re&ccedil;oive un email l'en informant?",
+        "Il n'est pas possible d'envoyer un courrier \u00e9lectronique au client car l'email principal n'a pas \u00e9t\u00e9 d\u00e9fini": "Il n'est pas possible d'envoyer un courrier \u00e9lectronique au client car l'email principal n'a pas \u00e9t\u00e9 d\u00e9fini",
+        "Un email de confirmation a \u00e9t\u00e9 envoy\u00e9 \u00e0 l'adh\u00e9rent.": "Un email de confirmation a \u00e9t\u00e9 envoy\u00e9 \u00e0 l'adh\u00e9rent.",
+        "\u00cates-vous bien s\u00fbr de vouloir supprimer ce document?": "\u00cates-vous bien s\u00fbr de vouloir supprimer ce document?",
+        "Trait\u00e9": "Trait\u00e9",
+        "Non trait\u00e9": "Non trait\u00e9",
+        "Ajout manuel de document": "Ajout manuel de document",
+        "Modification de document": "Modification de document",
+        "Commentaire pour": "Commentaire pour",
+        "Ecritures": "Ecritures",
+        "Ecritures en attente": "Ecritures en attente",
+        "Pas de commentaire": "Pas de commentaire"
+    },
+    "mvc\/prospects": {
+        "\u00cates-vous s\u00fbr de vouloir accepter cette demande?": "\u00cates-vous s\u00fbr de vouloir accepter cette demande?",
+        "\u00cates-vous s\u00fbr de vouloir refuser cette demande?": "\u00cates-vous s\u00fbr de vouloir refuser cette demande?",
+        "Voulez-vous que l'utilisateur re&ccedil;oive un email l'en informant": "Voulez-vous que l'utilisateur re&ccedil;oive un email l'en informant",
+        "Envoyer un email": "Envoyer un email",
+        "Message": "Message"
+    },
+    "components\/adherent\/tab\/changes\/detail": {
+        "\u00cates-vous s\u00fbr de vouloir renvoyer l'e-mail de v\u00e9rification?": "\u00cates-vous s\u00fbr de vouloir renvoyer l'e-mail de v\u00e9rification?",
+        "Email envoy\u00e9": "Email envoy\u00e9",
+        "Documents a produire": "Documents a produire",
+        "\u00cates-vous s\u00fbr de vouloir refuser ce document?": "\u00cates-vous s\u00fbr de vouloir refuser ce document?",
+        "Message additionnel": "Message additionnel"
+    },
+    "components\/adherent\/tab\/cotisations": {
+        "Email envoy\u00e9": "Email envoy\u00e9",
+        "Calculee": "Calculee",
+        "Appelee": "Appelee",
+        "Calcul de la cotisation": "Calcul de la cotisation",
+        "Cotisation": "Cotisation",
+        "prete pour l'appel initial": "prete pour l'appel initial",
+        "Reajustement": "Reajustement",
+        "Appel de cotisation": "Appel de cotisation",
+        "du": "du",
+        "Bonus\/Malus": "Bonus\/Malus",
+        "\u00cates-vous s\u00fbr de vouloir l'envoyer par email?": "\u00cates-vous s\u00fbr de vouloir l'envoyer par email?",
+        "\u00cates-vous certain de vouloir annuler cet appel?": "\u00cates-vous certain de vouloir annuler cet appel?",
+        "Voir le d\u00e9tail": "Voir le d\u00e9tail",
+        "T\u00e9l\u00e9charger l'appel en PDF": "T\u00e9l\u00e9charger l'appel en PDF",
+        "T\u00e9l\u00e9charger l'appel en CSV": "T\u00e9l\u00e9charger l'appel en CSV",
+        "Envoyer par email": "Envoyer par eMail",
+        "Annuler cet appel": "Annuler cet appel"
+    },
+    "mvc\/cotisations\/bonus_penalite": {
+        "Penalite": "P\u00e9nalit\u00e9",
+        "Penality temp": "Penality temp",
+        "Select Periode": "Select Periode"
+    },
+    "components\/adherent\/tab\/depot\/form": {
+        "Aucun fichier joint": "Aucun fichier joint",
+        "Votre DVA doit \u00eatre remplie. Si elle est nulle et qu'aucune saisie n'est n\u00e9cessaire, vous devez cocher la case \"DVA nulle\"": "Votre DVA doit \u00eatre remplie. Si elle est nulle et qu'aucune saisie n'est n\u00e9cessaire, vous devez cocher la case \"DVA nulle\""
+    },
+    "components\/adherent\/tab\/depot\/selection": {
+        "Envoi d'un fichier EDI": "Envoi d'un fichier EDI",
+        "Saisie manuelle r\u00e9gime r\u00e9el": "Saisie manuelle r\u00e9gime r\u00e9el",
+        "Saisie manuelle r\u00e9gime simplifi\u00e9": "Saisie manuelle r\u00e9gime simplifi\u00e9"
+    },
+    "components\/adherent\/tab\/emails": {
+        "Echec": "Echec",
+        "Succes": "Succes",
+        "Pret": "Pr\u00eat"
+    },
+    "components\/adherent\/tab\/experts": {
+        "Modifier Expert": "Modifier Expert"
+    },
+    "components\/adherent\/tab\/finances": {
+        "Exercice ": "Exercice",
+        "Fields picker": "Fields picker",
+        "Aucun fichier": "Aucun fichier",
+        "Recalculer les ratios": "Recalculer les ratios"
+    },
+    "components\/adherent\/tab\/historique": {
+        "La fiche va \u00eatre recharg\u00e9e afin de prendre en compte votre modification.": "La fiche va \u00eatre recharg\u00e9e afin de prendre en compte votre modification."
+    },
+    "components\/adherent\/widget\/alertes_infolegale": {
+        "Infos": "Infos"
+    },
+    "components\/adherent\/tab\/marques": {
+        "\u00cates-vous s\u00fbr de vouloir supprimer cette marque?": "\u00cates-vous s\u00fbr de vouloir supprimer cette marque?",
+        "Non d\u00e9fini": "Non d\u00e9fini",
+        "Nouvelle Marque": "Nouvelle Marque",
+        "Modifier Marque": "Modifier Marque"
+    },
+    "mvc\/test\/mirko\/forum": {
+        "New note": "New note",
+        "Inserted": "Inserted",
+        "Edit": "Edit",
+        "Edited": "Edited",
+        "Are you sure you want to delete this note?": "Are you sure you want to delete this note?",
+        "Deleted": "Deleted",
+        "Reply to": "Reply to"
+    },
+    "mvc\/test\/mirko\/table": {
+        "Edit": "Edit",
+        "New": "New",
+        "Are you sure you want to delete this record?": "Are you sure you want to delete this record?"
+    },
+    "mvc\/test\/mirko\/table2": {
+        "Edit": "Edit",
+        "New": "New",
+        "Are you sure you want to delete this record?": "Are you sure you want to delete this record?"
+    },
+    "components\/adherent\/tab\/succursales": {
+        "Radier": "Radier",
+        "\u00cates-vous s\u00fbr de vouloir supprimer cette succursale?": "\u00cates-vous s\u00fbr de vouloir supprimer cette succursale?",
+        "Radiation d'une succursale": "Radiation d'une succursale",
+        "Nouvelle Succursale": "Nouvelle Succursale",
+        "Modifier Succursale": "Modifier Succursale",
+        "Ajouter une Succursale": "Ajouter une Succursale",
+        "Search for a succursales": "Search for a succursales",
+        "Type at least 3 characters and press enter to search between succursales": "Type at least 3 characters and press enter to search between succursales"
+    },
+    "components\/adherent\/tab\/tasks": {
+        "months": "months",
+        "hours": "hours",
+        "days": "days"
+    },
+    "components\/adherent\/widget\/attestations": {
+        "Attestation": "Attestation"
+    },
+    "components\/adherent\/widget\/tutorat": {
+        "Ajouter un tuteur": "Ajouter un tuteur",
+        "Ajouter un repr\u00e9sentant": "Ajouter un repr\u00e9sentant",
+        "\u00cates-vous s\u00fbr de vouloir annuler le statut d'ex Nouvel Entrepreneur?": "\u00cates-vous s\u00fbr de vouloir annuler le statut d'ex Nouvel Entrepreneur?",
+        "\u00cates-vous s\u00fbr de vouloir supprimer le statut d'actuel Nouvel Entrepreneur et de le rendre ex?": "\u00cates-vous s\u00fbr de vouloir supprimer le statut d'actuel Nouvel Entrepreneur et de le rendre ex?",
+        "\u00cates-vous bien s\u00fbr de vouloir supprimer ce tuteur?": "\u00cates-vous bien s\u00fbr de vouloir supprimer ce tuteur?"
+    },
+    "components\/adherent\/widget\/dva": {
+        "Poste": "Poste",
+        "Prev": "Prev"
+    },
+    "components\/adherent\/widget\/pad2": {
+        "Poste": "Poste",
+        "Ceci n'est pas une valuer!": "Ceci n'est pas une valuer!"
+    },
+    "components\/adherent\/widget\/general": {
+        "personne": "Personne",
+        "Pas de statut prospect": "Pas de statut prospect",
+        "Selectionner les utilisateurs": "Selectionner les utilisateurs",
+        "Contacter APST": "Contacter APST"
+    },
+    "components\/edi": {
+        "Montrer seulement les diff\u00e9rences": "Montrer seulement les diff\u00e9rences",
+        "Tout montrer": "Tout montrer",
+        "Remplacer avec le contenu du fichier EDI": "Remplacer avec le contenu du fichier EDI",
+        "Attention, toutes les \u00e9critures actuelles seront supprim\u00e9es pour \u00eatre remplac\u00e9es par les \u00e9critures du fichier EDI.": "Attention, toutes les \u00e9critures actuelles seront supprim\u00e9es pour \u00eatre remplac\u00e9es par les \u00e9critures du fichier EDI.",
+        "\u00cates - vous s\u00fbr de vouloir continuer?": "\u00cates - vous s\u00fbr de vouloir continuer?"
+    },
+    "mvc\/cotisations\/liste": {
+        "Ann\u00e9e": "ANN\u00c9E",
+        "T\u00e9l\u00e9charger:": "T\u00e9l\u00e9charger:",
+        "CSV": "CSV"
+    },
+    "mvc\/cotisations\/supprimees": {
+        "Ann\u00e9e": "ANN\u00c9E",
+        "Aucune ligne s\u00e9lectionn\u00e9e": "Aucune ligne s\u00e9lectionn\u00e9e",
+        "Vous devez s\u00e9lectionner au moins deux lignes": "Vous devez s\u00e9lectionner au moins deux lignes",
+        "Pour les cotisations individuelles, rendez-vous sur la fiche de l'adh\u00e9rent.": "Pour les cotisations individuelles, rendez-vous sur la fiche de l'adh\u00e9rent.",
+        "Op\u00e9ration impossible": "Op\u00e9ration impossible",
+        "Nouvel appel de cotisation": "Nouvel appel de cotisation",
+        "\u00cates-vous s\u00fbr de vouloir g\u00e9n\u00e9rer toutes les": "\u00cates-vous s\u00fbr de vouloir g\u00e9n\u00e9rer toutes les",
+        "cotisations?": "cotisations?",
+        "Excel": "Excel"
+    },
+    "mvc\/liens": {
+        "Sauvegarde de la liste": "Sauvegarde de la liste",
+        "Save as Excel": "Save as Excel"
+    },
+    "components\/listes\/form_save": {
+        "\u00cates-vous s\u00fbr de vouloir remplacer la s\u00e9lection existante?": "\u00cates-vous s\u00fbr de vouloir remplacer la s\u00e9lection existante?"
+    },
+    "components\/widget\/liste": {
+        "Are you sure you want to delete this widget?": "Are you sure you want to delete this widget?",
+        "Widget deleted": "Widget deleted"
+    },
+    "components\/widget\/stats": {
+        "Jour": "JOUR",
+        "Mois": "mois"
+    },
+    "mvc\/docs_infolegale": {
+        "R\u00e9ception des comptes": "R\u00e9ception des comptes",
+        "Fichier Excel": "Fichier Excel",
+        "Fichier PDF": "Fichier PDF",
+        "Envoi \u00e0 Infolegale": "Envoi \u00e0 Infolegale",
+        "En attente": "En attente",
+        "Trait\u00c3\u00a9es": "Trait\u00c3\u00a9es"
+    },
+    "mvc\/test\/appui\/cms\/publications": {
+        "Version": "Version",
+        "URL": "URL",
+        "Page": "Page",
+        "Post": "Post",
+        "New": "New",
+        "Note": "Note",
+        "Creator": "Creator",
+        "Content": "CONTENT",
+        "Creation": "Creation",
+        "Pub. Start": "Pub. Start",
+        "Pub. End": "Pub. End",
+        "New Note": "New note",
+        "Edit Note": "Edit Note",
+        "Publish Note": "Publish Note",
+        "Are you sure to remove the publication from this note?": "Are you sure to remove the publication from this note?",
+        "Successfully deleted": "Successfully deleted",
+        "Error in deleting": "Error in deleting",
+        "Are you sure to delete this note?": "Are you sure to delete this note?",
+        "Enter a title for the note": "Enter a title for the note"
+    },
+    "mvc\/test\/publications\/publications": {
+        "Version": "Version",
+        "URL": "URL",
+        "Import": "Import",
+        "Export": "Export",
+        "Post title": "Post title",
+        "Author": "Author",
+        "Date GMT": "Date GMT",
+        "Post Status": "Post Status",
+        "Page": "Page",
+        "Post": "Post",
+        "New": "New",
+        "Note": "Note",
+        "Creator": "Creator",
+        "Content": "CONTENT",
+        "Creation": "Creation",
+        "Pub. Start": "Pub. Start",
+        "Pub. End": "Pub. End",
+        "New Note": "New note",
+        "Edit Note": "Edit Note",
+        "Publish Note": "Publish Note",
+        "Are you sure to remove the publication from this note?": "Are you sure to remove the publication from this note?",
+        "Successfully deleted": "Successfully deleted",
+        "Error in deleting": "Error in deleting",
+        "Are you sure to delete this note?": "Are you sure to delete this note?",
+        "Enter a title for the note": "Enter a title for the note",
+        "Tools": "Tools",
+        "Post name": "Post Name",
+        "Modified": "Modified",
+        "Do you want to import all the content of this table?": "Do you want to import all the content of this table?",
+        "Are you sure you import the posts?": "Are you sure you import the posts?",
+        "Import performed": "Import performed",
+        "Error Import": "Error Import"
+    },
+    "mvc\/test\/publications\/publications_back": {
+        "Version": "Version",
+        "URL": "URL",
+        "Import": "Import",
+        "Export": "Export",
+        "Post title": "Post title",
+        "Author": "Author",
+        "Date GMT": "Date GMT",
+        "Post Status": "Post Status",
+        "Page": "Page",
+        "New": "New",
+        "Creator": "Creator",
+        "Content": "CONTENT",
+        "Creation": "Creation",
+        "New Note": "New note",
+        "Enter a title for the note": "Enter a title for the note",
+        "Tools": "Tools",
+        "Post name": "Post Name",
+        "Modified": "Modified",
+        "Do you want to import all the content of this table?": "Do you want to import all the content of this table?",
+        "Are you sure you import the posts?": "Are you sure you import the posts?",
+        "Import performed": "Import performed",
+        "Error Import": "Error Import",
+        "Show": "Show",
+        "Find": "Find"
+    },
+    "mvc\/stats": {
+        "JOUR": "JOUR",
+        "MOIS": "mois",
+        "ANN\u00c9E": "ANN\u00c9E"
+    },
+    "mvc\/cotisations\/baremes": {
+        "\u00cates-vous s\u00fbr que la configuration est pr\u00eate?": "\u00cates-vous s\u00fbr que la configuration est pr\u00eate?",
+        "P\u00c3\u00a9riode de cotisation": "P\u00c3\u00a9riode de cotisation",
+        "Bar\u00c3\u00aame": "Bar\u00c3\u00aame",
+        "G\u00c3\u00a9n\u00c3\u00a9rer les bar\u00c3\u00aames annuels pour": "G\u00c3\u00a9n\u00c3\u00a9rer les bar\u00c3\u00aames annuels pour"
+    },
+    "mvc\/cotisations\/periodes": {
+        "ferm\u00e9": "ferm\u00e9",
+        "accomptes": "accomptes",
+        "Ouvert": "Ouvert"
+    },
+    "mvc\/cotisations\/sage_sync": {
+        "Il y a eu une erreur pendant l'analyse du fichier SAGE, contactez l'assistance": "Il y a eu une erreur pendant l'analyse du fichier SAGE, contactez l'assistance"
+    },
+    "mvc\/listes\/home": {
+        "Legende des listes": "Legende des listes"
+    },
+    "mvc\/test\/kendo\/tree_db": {
+        "tables updated": "tables updated",
+        "table updated": "table updated",
+        "No table updated": "No table updated",
+        "columns updated": "columns updated",
+        "column updated": "column updated",
+        "No column updated": "No column updated",
+        "keys updated": "keys updated",
+        "key updated": "key updated",
+        "No key updated": "No key updated",
+        "All the objects associated with this database will be also deleted. None of the data will be affected. Are you sure you widh to proceed?": "All the objects associated with this database will be also deleted. None of the data will be affected. Are you sure you widh to proceed?",
+        "Database successfully removed from internal data": "Database successfully removed from internal data",
+        "All the objects associated with this table will be also deleted. None of the data will be affected. Are you sure you widh to proceed?": "All the objects associated with this table will be also deleted. None of the data will be affected. Are you sure you widh to proceed?",
+        "Table successfully removed from internal data": "Table successfully removed from internal data"
+    },
+    "mvc\/test\/kendo\/appui-styles\/test": {
+        "ciao a tutti belli e brutti": "ciao a tutti belli e brutti",
+        "ciao": "ciao",
+        "prova ancora ": "prova ancora",
+        "e ancora": "e ancora"
+    },
+    "mvc\/test\/kendo\/com\/lettres_types": {
+        "Modification de la lettre-type": "Modification de la lettre-type",
+        "Souhaitez-vous vraiment supprimer cette lettre-type?": "Souhaitez-vous vraiment supprimer cette lettre-type?",
+        "Avertissement sur les lettres types": "Avertissement sur les lettres types",
+        "Cr\u00e9ation d'une lettre-type": "Cr\u00e9ation d'une lettre-type",
+        "Ajouter une lettre type": "Ajouter une lettre type"
+    },
+    "mvc\/test\/old\/appui-databases\/components\/filter_control": {
+        "Are you sure you want to delete this group of conditions?": "Are you sure you want to delete this group of conditions?"
+    },
+    "mvc\/test\/old\/appui-databases\/components\/filter_form": {
+        "Choose a value": "Choose a value"
+    },
+    "mvc\/test\/thomas\/dropdown2": {
+        "Font size": "Font size",
+        "Container width": "Container width",
+        "Text alignment": "Text alignment",
+        "State": "State"
+    },
+    "mvc\/test\/thomas\/icons": {
+        "Copy icon": "Copy icon"
+    },
+    "mvc\/test\/thomas\/admin_test\/icons": {
+        "Copy icon": "Copy icon"
+    },
+    "": {
+        "Open task": "Ouvrir la t\u00e2che",
+        "Year": "Ann\u00e9e",
+        "No file selected": "Aucun fichier s\u00e9lectionn\u00e9",
+        "The name or the folder name for this library is missing": "Le nom ou le nom de dossier pour cette librairie est manquant",
+        "Success!": "Succ\u00e8s!",
+        "A problem has occurred": "Un probl\u00e8me est survenu",
+        "Are you sure you want to continue?": "\u00cates-vous s\u00fbr de vouloir continuer?",
+        "The version's ID is missing": "L'ID de la version est manquant",
+        "The library's name is missing": "Le nom de la librairie est manquant",
+        "Dependencies already inserted": "Les d\u00e9pendances ont d\u00e9j\u00e0 \u00e9t\u00e9 ins\u00e9r\u00e9es",
+        "The order should be a number": "L'ordre devrait \u00eatre un nombre",
+        "Add language file": "Ajouter un fichier de langue",
+        "Add theme": "Ajouter un th\u00e8me",
+        "Prepend the theme files": "Ajouter les fichiers de theme avant",
+        "Dependencies": "",
+        "Update": "Mettre \u00e0 jour",
+        "Info": "Info",
+        "Add version to this library": "",
+        "List versions from repository": "",
+        "Error while deleting": "Erreur pendant la suppression",
+        "cancel": "Annuler",
+        "Library deleted": "",
+        "Version deleted": "",
+        "Error while deleting library": "",
+        "Error while deleting version": "",
+        "Do you really want delete the library": "",
+        "Do you really want to delete the version": "",
+        "skip": "",
+        "import": "Importation",
+        "Import library from Github": "",
+        "No release found": "",
+        "The repository's URL is empty": "",
+        "Add library": "",
+        "Get info from package.json": "",
+        "new": "Nouveau",
+        "Dependencies library": "",
+        "No dependencies found": "",
+        "New version for ": "",
+        "GitHub link": "",
+        "libraries": "",
+        "Edit": "Modifier",
+        "Script package.json": "",
+        "Error": "Erreur",
+        "Info version ": "",
+        "Edit the version of the": "",
+        "library": "",
+        "Remove version in library": "",
+        "The following version already exists": "",
+        "Scripts": "",
+        "No Script": "",
+        "ID": "ID",
+        "Date added": "",
+        "Content": "Contenu",
+        "Delete": "Supprimer",
+        "Remove library": ""
+    }
+}
