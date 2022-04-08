@@ -51,7 +51,6 @@
         },
         "fields": {
             "id": {
-                "position": 1,
                 "type": "binary",
                 "null": 0,
                 "key": "PRI",
@@ -59,7 +58,6 @@
                 "maxlength": 16
             },
             "title": {
-                    "position": 2,
                     "type": "varchar",
                     "null": 1,
                     "key": "MUL",
@@ -68,7 +66,6 @@
                     "maxlength": 255
             },
             "creator": {
-                "position": 2,
                 "type": "binary",
                 "null": 0,
                 "key": "MUL",
@@ -76,7 +73,6 @@
                 "maxlength": 16
             },
             "state_hash": {
-                    "position": 4,
                     "type": "varchar",
                     "null": 1,
                     "key": null,
@@ -85,7 +81,6 @@
                     "maxlength": 32
             },
             "creation": {
-                "position": 3,
                 "type": "datetime",
                 "null": 0,
                 "key": null,
@@ -93,7 +88,6 @@
                 "generation": ""
             },
             "last_message": {
-                "position": 4,
                 "type": "decimal",
                 "null": 1,
                 "key": null,
@@ -103,7 +97,6 @@
                 "decimals": 4
             },
             "blocked": {
-                "position": 5,
                 "type": "tinyint",
                 "null": 0,
                 "key": null,
@@ -111,7 +104,6 @@
                 "maxlength": 1
             },
             "public": {
-                "position": 6,
                 "type": "tinyint",
                 "null": 0,
                 "key": null,
@@ -119,7 +111,6 @@
                 "maxlength": 1
             },
             "dt": {
-                "position": 7,
                 "type": "datetime",
                 "null": 1,
                 "key": null,
@@ -183,7 +174,6 @@
         },
         "fields": {
             "id_chat": {
-                "position": 1,
                 "type": "binary",
                 "null": 0,
                 "key": "PRI",
@@ -191,7 +181,6 @@
                 "maxlength": 16
             },
             "id_user": {
-                "position": 2,
                 "type": "binary",
                 "null": 0,
                 "key": "PRI",
@@ -199,7 +188,6 @@
                 "maxlength": 16
             },
             "entrance": {
-                "position": 3,
                 "type": "decimal",
                 "null": 0,
                 "key": null,
@@ -208,7 +196,6 @@
                 "decimals": 4
             },
             "dt_entrance": {
-                "position": 4,
                 "type": "datetime",
                 "null": 1,
                 "key": null,
@@ -219,7 +206,6 @@
                 "default": "NULL"
             },
             "last_activity": {
-                "position": 5,
                 "type": "decimal",
                 "null": 1,
                 "key": null,
@@ -228,7 +214,6 @@
                 "decimals": 4
             },
             "dt_last_activity": {
-                "position": 6,
                 "type": "datetime",
                 "null": 1,
                 "key": null,
@@ -239,7 +224,6 @@
                 "default": "NULL"
             },
             "last_notification": {
-                "position": 7,
                 "type": "decimal",
                 "null": 1,
                 "key": null,
@@ -248,7 +232,6 @@
                 "decimals": 4
             },
             "dt_last_notification": {
-                "position": 8,
                 "type": "datetime",
                 "null": 1,
                 "key": null,
@@ -259,7 +242,6 @@
                 "default": "NULL"
             },
             "mute": {
-                "position": 9,
                 "type": "tinyint",
                 "null": 0,
                 "key": null,
