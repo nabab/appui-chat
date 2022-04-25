@@ -5,19 +5,12 @@
                 "columns": [
                     "id"
                 ],
-                "ref_db": null,
-                "ref_table": null,
-                "ref_column": null,
-                "constraint": null,
-                "update": null,
-                "delete": null,
                 "unique": 1
             },
             "creator": {
                 "columns": [
                     "creator"
                 ],
-                "ref_db": null,
                 "ref_table": "bbn_users",
                 "ref_column": "id",
                 "constraint": "bbn_chats_ibfk_1",
@@ -27,14 +20,8 @@
             },
             "title": {
                 "columns": [
-                        "title"
+                    "title"
                 ],
-                "ref_db": null,
-                "ref_table": null,
-                "ref_column": null,
-                "constraint": null,
-                "update": null,
-                "delete": null,
                 "unique": 0
             }
         },
@@ -129,19 +116,12 @@
                     "id_chat",
                     "id_user"
                 ],
-                "ref_db": null,
-                "ref_table": null,
-                "ref_column": null,
-                "constraint": "bbn_chats_users_ibfk_1",
-                "update": "CASCADE",
-                "delete": "CASCADE",
                 "unique": 1
             },
             "id_chat": {
                 "columns": [
                     "id_chat"
                 ],
-                "ref_db": null,
                 "ref_table": "bbn_chats",
                 "ref_column": "id",
                 "constraint": "bbn_chats_users_ibfk_1",
@@ -153,7 +133,6 @@
                 "columns": [
                     "id_user"
                 ],
-                "ref_db": null,
                 "ref_table": "bbn_users",
                 "ref_column": "id",
                 "constraint": "bbn_chats_users_ibfk_2",
