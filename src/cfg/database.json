@@ -50,6 +50,7 @@
         "key": "MUL",
         "signed": true,
         "default": "NULL",
+        "defaultExpression": 1,
         "maxlength": 255
       },
       "creator": {
@@ -62,22 +63,20 @@
       "state_hash": {
         "type": "varchar",
         "null": 1,
-        "key": null,
         "signed": true,
         "default": "NULL",
+        "defaultExpression": 1,
         "maxlength": 32
       },
       "creation": {
         "type": "datetime",
         "null": 0,
-        "key": null,
         "signed": true,
         "generation": ""
       },
       "last_message": {
         "type": "decimal",
         "null": 1,
-        "key": null,
         "signed": true,
         "default": "NULL",
         "defaultExpression": 1,
@@ -87,26 +86,24 @@
       "blocked": {
         "type": "tinyint",
         "null": 0,
-        "key": null,
         "default": 0,
         "maxlength": 1
       },
       "public": {
         "type": "tinyint",
         "null": 0,
-        "key": null,
         "default": 0,
         "maxlength": 1
       },
       "dt": {
         "type": "datetime",
         "null": 1,
-        "key": null,
         "extra": "VIRTUAL GENERATED",
         "signed": true,
         "virtual": true,
         "generation": "from_unixtime(`last_message`)",
-        "default": "NULL"
+        "default": "NULL",
+        "defaultExpression": 1
       }
     }
   },
@@ -170,7 +167,6 @@
       "entrance": {
         "type": "decimal",
         "null": 0,
-        "key": null,
         "signed": true,
         "maxlength": 14,
         "decimals": 4
@@ -178,17 +174,16 @@
       "dt_entrance": {
         "type": "datetime",
         "null": 1,
-        "key": null,
         "extra": "VIRTUAL GENERATED",
         "signed": true,
         "virtual": true,
         "generation": "from_unixtime(`entrance`)",
-        "default": "NULL"
+        "default": "NULL",
+        "defaultExpression": 1
       },
       "last_activity": {
         "type": "decimal",
         "null": 1,
-        "key": null,
         "default": "NULL",
         "defaultExpression": 1,
         "maxlength": 14,
@@ -197,17 +192,15 @@
       "dt_last_activity": {
         "type": "datetime",
         "null": 1,
-        "key": null,
         "extra": "VIRTUAL GENERATED",
-        "signed": true,
         "virtual": true,
         "generation": "from_unixtime(`last_activity`)",
-        "default": "NULL"
+        "default": "NULL",
+        "defaultExpression": 1
       },
       "last_notification": {
         "type": "decimal",
         "null": 1,
-        "key": null,
         "default": "NULL",
         "defaultExpression": 1,
         "maxlength": 14,
@@ -216,17 +209,16 @@
       "dt_last_notification": {
         "type": "datetime",
         "null": 1,
-        "key": null,
         "extra": "VIRTUAL GENERATED",
         "signed": true,
         "virtual": true,
         "generation": "from_unixtime(`last_notification`)",
-        "default": "NULL"
+        "default": "NULL",
+        "defaultExpression": 1
       },
       "mute": {
         "type": "tinyint",
         "null": 0,
-        "key": null,
         "default": 0,
         "maxlength": 1
       },
@@ -234,7 +226,6 @@
         "position": 10,
         "type": "tinyint",
         "null": 0,
-        "key": null,
         "default": 0,
         "maxlength": 1
       },
@@ -242,7 +233,6 @@
         "position": 11,
         "type": "tinyint",
         "null": 0,
-        "key": null,
         "default": 1,
         "maxlength": 1
       }
