@@ -41,14 +41,12 @@
         "type": "binary",
         "null": 0,
         "key": "PRI",
-        "signed": true,
         "maxlength": 16
       },
       "title": {
         "type": "varchar",
         "null": 1,
         "key": "MUL",
-        "signed": true,
         "default": "NULL",
         "defaultExpression": 1,
         "maxlength": 255
@@ -57,13 +55,11 @@
         "type": "binary",
         "null": 0,
         "key": "MUL",
-        "signed": true,
         "maxlength": 16
       },
       "state_hash": {
         "type": "varchar",
         "null": 1,
-        "signed": true,
         "default": "NULL",
         "defaultExpression": 1,
         "maxlength": 32
@@ -71,13 +67,11 @@
       "creation": {
         "type": "datetime",
         "null": 0,
-        "signed": true,
         "generation": ""
       },
       "last_message": {
         "type": "decimal",
         "null": 1,
-        "signed": true,
         "default": "NULL",
         "defaultExpression": 1,
         "maxlength": 14,
@@ -99,7 +93,6 @@
         "type": "datetime",
         "null": 1,
         "extra": "VIRTUAL GENERATED",
-        "signed": true,
         "virtual": true,
         "generation": "from_unixtime(`last_message`)",
         "default": "NULL",
@@ -154,20 +147,17 @@
         "type": "binary",
         "null": 0,
         "key": "PRI",
-        "signed": true,
         "maxlength": 16
       },
       "id_user": {
         "type": "binary",
         "null": 0,
         "key": "PRI",
-        "signed": true,
         "maxlength": 16
       },
       "entrance": {
         "type": "decimal",
         "null": 0,
-        "signed": true,
         "maxlength": 14,
         "decimals": 4
       },
@@ -175,7 +165,6 @@
         "type": "datetime",
         "null": 1,
         "extra": "VIRTUAL GENERATED",
-        "signed": true,
         "virtual": true,
         "generation": "from_unixtime(`entrance`)",
         "default": "NULL",
@@ -210,7 +199,6 @@
         "type": "datetime",
         "null": 1,
         "extra": "VIRTUAL GENERATED",
-        "signed": true,
         "virtual": true,
         "generation": "from_unixtime(`last_notification`)",
         "default": "NULL",
@@ -223,14 +211,12 @@
         "maxlength": 1
       },
       "admin": {
-        "position": 10,
         "type": "tinyint",
         "null": 0,
         "default": 0,
         "maxlength": 1
       },
       "active": {
-        "position": 11,
         "type": "tinyint",
         "null": 0,
         "default": 1,
