@@ -63,7 +63,7 @@ $did = 0;
 foreach ($chats as $c) {
   if ($mess = $chat->getNextMessages($c->id_chat, $c->last_activity, 0, $c->id_user)) {
     $n = [
-    	'title' => _('New messages received from') . ' "' . ($c->title ?: $ctrl->inc->user->getName($mess[0]->id_user)) . '"',
+    	'title' => _('New messages received from') . ' "' . ($c->title ?: $ctrl->inc->user->getName($mess[0]['user'])) . '"',
       'content' => ''
   	];
     foreach ($mess as $m) {
