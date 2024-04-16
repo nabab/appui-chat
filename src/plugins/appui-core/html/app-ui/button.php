@@ -6,7 +6,7 @@
             :users="users"
             :online-users="usersOnline"
             :online="isChatOnline"
-            @messageToChannel="messageChannel"
+            @messagetochannel="messageChannel"
             @hook:mounted="onChatMounted"
             :groups="groups"/>
 </div>
