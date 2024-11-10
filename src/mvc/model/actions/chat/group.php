@@ -1,5 +1,5 @@
 <?php
-/** @var $model \bbn\Mvc\Model */
+/** @var bbn\Mvc\Model $model */
 if (
   !empty($model->data['title']) &&
   !empty($model->data['participants']) &&
