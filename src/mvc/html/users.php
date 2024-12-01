@@ -2,7 +2,7 @@
 
 <div class="bbn-overlay">
   <bbn-list :source="source.users">
-    <div class="bbn-w-100 bbn-spadded"
+    <div class="bbn-w-100 bbn-spadding"
          style="overflow: auto"
          slot="item"
          slot-scope="user">
