@@ -1,4 +1,4 @@
-<!-- CLIPBOARD BUTTON -->
+<!-- CHAT BUTTON -->
 <div class="bbn-right-smargin">
   <bbn-chat :url="root"
             :user-id="userId"
