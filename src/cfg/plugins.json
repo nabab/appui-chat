@@ -1,7 +1,6 @@
 [{
-  "code": "appui-notification",
+  "code": "notification",
   "text": "Notification",
-  "id_alias": ["list", "notification", "appui"],
   "items": [{
     "code": "unread_messages",
     "text": "Unread messages"
