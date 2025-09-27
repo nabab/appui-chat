@@ -91,12 +91,9 @@
       },
       "dt": {
         "type": "datetime",
-        "null": 1,
         "extra": "VIRTUAL GENERATED",
         "virtual": true,
-        "generation": "from_unixtime(`last_message`)",
-        "default": "NULL",
-        "defaultExpression": 1
+        "generation": "from_unixtime(`last_message`)"
       }
     }
   },
@@ -163,12 +160,9 @@
       },
       "dt_entrance": {
         "type": "datetime",
-        "null": 1,
         "extra": "VIRTUAL GENERATED",
         "virtual": true,
-        "generation": "from_unixtime(`entrance`)",
-        "default": "NULL",
-        "defaultExpression": 1
+        "generation": "from_unixtime(`entrance`)"
       },
       "last_activity": {
         "type": "decimal",
@@ -180,12 +174,9 @@
       },
       "dt_last_activity": {
         "type": "datetime",
-        "null": 1,
         "extra": "VIRTUAL GENERATED",
         "virtual": true,
-        "generation": "from_unixtime(`last_activity`)",
-        "default": "NULL",
-        "defaultExpression": 1
+        "generation": "from_unixtime(`last_activity`)"
       },
       "last_notification": {
         "type": "decimal",
@@ -197,12 +188,9 @@
       },
       "dt_last_notification": {
         "type": "datetime",
-        "null": 1,
         "extra": "VIRTUAL GENERATED",
         "virtual": true,
-        "generation": "from_unixtime(`last_notification`)",
-        "default": "NULL",
-        "defaultExpression": 1
+        "generation": "from_unixtime(`last_notification`)"
       },
       "mute": {
         "type": "tinyint",
